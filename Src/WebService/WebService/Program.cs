@@ -28,7 +28,6 @@ builder.Services.AddCors(options =>
     });
 });
 
-<<<<<<< HEAD
 //数据库
 // 数据库配置 - 修正这里！
 var connectionString = builder.Configuration.GetConnectionString("BlogDbContext");
@@ -44,7 +43,6 @@ builder.Services.AddDbContext<BlogDbContext>(options =>
         });
 });
 
-=======
 //数据库上下文配置
 // 数据库配置 - 修正这里！
 //var connectionString = builder.Configuration.GetConnectionString("BlogDbContext");
@@ -63,7 +61,7 @@ builder.Services.AddDbContext<BlogDbContext>(options =>
 builder.Services.ConfigureMySqlConetxt(builder.Configuration); //上下文
 builder.Services.ConfigureServiceScope();
 //builder.Services.AddAutoMapper(cfg => cfg.AddMaps(Assembly.GetExecutingAssembly()));
->>>>>>> gs
+
 
 var app = builder.Build();
 
