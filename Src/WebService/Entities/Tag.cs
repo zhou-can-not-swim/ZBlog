@@ -11,6 +11,5 @@ namespace Entities
     {
         public string Name { get; set; }
 
-        public Blog Blog { get; set; }
      }
 }

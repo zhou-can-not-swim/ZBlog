@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\EF\\EF.csproj": {}
+    "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\EF\\EF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\EF\\EF.csproj": {
+    "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\EF\\EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\EF\\EF.csproj",
+        "projectUniqueName": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\EF\\EF.csproj",
         "projectName": "EF",
-        "projectPath": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\EF\\EF.csproj",
-        "packagesPath": "C:\\Users\\qiyu.zhou\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\EF\\obj\\",
+        "projectPath": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\EF\\EF.csproj",
+        "packagesPath": "C:\\Users\\zqy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\EF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\qiyu.zhou\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zqy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\Entities\\Entities.csproj"
+              "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\Entities\\Entities.csproj"
               }
             }
           }
@@ -57,11 +57,15 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[8.0.0, )"
             }
@@ -82,24 +86,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\Entities\\Entities.csproj": {
+    "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\qiyu.zhou\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\zqy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\qiyu.zhou\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zqy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -148,7 +152,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

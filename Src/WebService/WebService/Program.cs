@@ -13,9 +13,14 @@ builder.Services.AddSwaggerGen();
 //添加跨域
 builder.Services.AddCors(options =>
 {
+    string _frontAddress = builder.Configuration.GetValue<string>("FrontAddress");
+    if (_frontAddress == null)
+    {
+        return;
+    }
     options.AddPolicy("AllowWithCredentials", policy =>
     {
-        policy.WithOrigins("http://localhost:8080") // 明确指定前端地址
+        policy.WithOrigins(_frontAddress) // 明确指定前端地址
               .AllowAnyHeader()
               .AllowAnyMethod()
               .AllowCredentials(); // 允许凭据,signalr需要
@@ -23,15 +28,17 @@ builder.Services.AddCors(options =>
 });
 
 //数据库
+// 数据库配置 - 修正这里！
+var connectionString = builder.Configuration.GetConnectionString("BlogDbContext");
 builder.Services.AddDbContext<BlogDbContext>(options =>
 {
-    var connectionString = builder.Configuration.GetConnectionString("BlogDbContext");
     options.UseMySql(
         connectionString,
-        ServerVersion.AutoDetect(connectionString),
+        new MySqlServerVersion(new Version(8, 0, 44)),
         mysqlOptions =>
         {
-            mysqlOptions.MigrationsAssembly(typeof(BlogDbContext).Assembly.FullName);
+            // 指定迁移程序集为 EF（BlogDbContext 所在的程序集）
+            mysqlOptions.MigrationsAssembly("EF");
         });
 });
 

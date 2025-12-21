@@ -1,5 +1,6 @@
 ﻿using Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Design;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,12 +25,20 @@ namespace EF
         public DbSet<User> Users { get; set; }
         public DbSet<Tag> Tags { get; set; }
 
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseMySql(
+                "server=127.0.0.1;port=3306;uid=root;pwd=123456;database=zblog",
+                new MySqlServerVersion(new Version(8, 0, 44)));
+        }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
             // 应用所有配置
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+
 
             //// 全局配置,后续可以研究
             //ConfigureGlobalFilters(modelBuilder);
@@ -53,4 +62,6 @@ namespace EF
         //}
         }
 
-    }
+
+
+}
