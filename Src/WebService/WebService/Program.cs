@@ -1,5 +1,6 @@
 using EF;
 using Microsoft.EntityFrameworkCore;
+using WebService.Extentions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,6 +28,7 @@ builder.Services.AddCors(options =>
     });
 });
 
+<<<<<<< HEAD
 //数据库
 // 数据库配置 - 修正这里！
 var connectionString = builder.Configuration.GetConnectionString("BlogDbContext");
@@ -42,11 +44,31 @@ builder.Services.AddDbContext<BlogDbContext>(options =>
         });
 });
 
+=======
+//数据库上下文配置
+// 数据库配置 - 修正这里！
+//var connectionString = builder.Configuration.GetConnectionString("BlogDbContext");
+//builder.Services.AddDbContext<BlogDbContext>(options =>
+//{
+//    options.UseMySql(
+//        connectionString,
+//        new MySqlServerVersion(new Version(8, 0, 44)),
+//        mysqlOptions =>
+//        {
+//            // 指定迁移程序集为 EF（BlogDbContext 所在的程序集）
+//            mysqlOptions.MigrationsAssembly("EF");
+//        });
+//});
+//数据库上下文配置,放到了其他的文件中去了
+builder.Services.ConfigureMySqlConetxt(builder.Configuration); //上下文
+builder.Services.ConfigureServiceScope();
+//builder.Services.AddAutoMapper(cfg => cfg.AddMaps(Assembly.GetExecutingAssembly()));
+>>>>>>> gs
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();

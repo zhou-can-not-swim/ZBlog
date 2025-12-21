@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
@@ -13,7 +14,6 @@ namespace Entities
         public string Username { get; set; }
         public string Email { get; set; }
         public string motto { get; set; }
-
 
         public ICollection<Blog> Blogs { get; set; }
     }

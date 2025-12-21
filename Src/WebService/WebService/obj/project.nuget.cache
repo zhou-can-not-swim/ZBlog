@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "0AZ4mPVRP84=",
+=======
+  "dgSpecHash": "2cSeiaCuXHE=",
+>>>>>>> gs
   "success": true,
   "projectFilePath": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\WebService\\WebService.csproj",
   "expectedPackageFiles": [
