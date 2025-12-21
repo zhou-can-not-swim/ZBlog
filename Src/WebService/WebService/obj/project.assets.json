@@ -949,8 +949,6 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-<<<<<<< HEAD
-=======
       "Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -961,7 +959,6 @@
           "bin/placeholder/Common.dll": {}
         }
       },
->>>>>>> gs
       "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -2724,14 +2721,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
-<<<<<<< HEAD
-=======
     "Common/1.0.0": {
       "type": "project",
       "path": "../Common/Common.csproj",
       "msbuildProject": "../Common/Common.csproj"
     },
->>>>>>> gs
     "Entities/1.0.0": {
       "type": "project",
       "path": "../Entities/Entities.csproj",
@@ -2745,17 +2739,11 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-<<<<<<< HEAD
-      "Entities >= 1.0.0",
-      "Microsoft.EntityFrameworkCore.Design >= 8.0.0",
-      "Pomelo.EntityFrameworkCore.MySql >= 8.0.0",
-=======
       "Common >= 1.0.0",
       "Entities >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.0",
       "Pomelo.EntityFrameworkCore.MySql >= 8.0.0",
       "Service >= 1.0.0",
->>>>>>> gs
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
@@ -2792,15 +2780,12 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-<<<<<<< HEAD
-=======
             "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\Common\\Common.csproj": {
               "projectPath": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\Common\\Common.csproj"
             },
             "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\Contracts\\Service.csproj": {
               "projectPath": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\Contracts\\Service.csproj"
             },
->>>>>>> gs
             "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\Entities\\Entities.csproj": {
               "projectPath": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\Entities\\Entities.csproj"
             }

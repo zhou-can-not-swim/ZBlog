@@ -19,9 +19,6 @@
 
   <ItemGroup>
 	  <!-- 顺序很重要：先 Entities，后 EF -->
-<<<<<<< HEAD
-	  <ProjectReference Include="..\Entities\Entities.csproj" />
-=======
 	  <ProjectReference Include="..\Common\Common.csproj" />
 	  <ProjectReference Include="..\Contracts\Service.csproj" />
 	  <ProjectReference Include="..\Entities\Entities.csproj" />
@@ -29,7 +26,6 @@
 
   <ItemGroup>
     <Folder Include="Utils\" />
->>>>>>> gs
   </ItemGroup>
 
 </Project>

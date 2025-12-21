@@ -4,10 +4,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Text.Json;
-<<<<<<< HEAD
-=======
 using System.Text.Json.Serialization;
->>>>>>> gs
+
 using System.Threading.Tasks;
 
 namespace Entities
@@ -30,10 +28,6 @@ namespace Entities
         [NotMapped]
         public List<string> Tags
         {
-<<<<<<< HEAD
-            get => JsonSerializer.Deserialize<List<string>>(TagsJson ?? "[]");
-            set => TagsJson = JsonSerializer.Serialize(value);
-=======
             get
             {
                 try
@@ -65,7 +59,6 @@ namespace Entities
                     TagsJson = JsonSerializer.Serialize(value);
                 }
             }
->>>>>>> gs
         }
     }
 }
