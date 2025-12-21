@@ -14,15 +14,9 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Common")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD:Src/WebService/EF/obj/Debug/net8.0/EF.AssemblyInfo.cs
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+198418081a8403ab903cb4b1339cbe60215a2068")]
-[assembly: System.Reflection.AssemblyProductAttribute("EF")]
-[assembly: System.Reflection.AssemblyTitleAttribute("EF")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+726344dc30ccdaf32d6be605c711e8fdfa12d382")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f789579587d66c77e4aa76579e7fe345415061e3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Common")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Common")]
->>>>>>> gs:Src/WebService/Common/obj/Debug/net8.0/Common.AssemblyInfo.cs
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // 由 MSBuild WriteCodeFragment 类生成。
