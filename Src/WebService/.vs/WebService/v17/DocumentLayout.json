@@ -6,8 +6,12 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67CB9020-5E64-4FD6-AA55-27F9EE9076B7}|WebService\\WebService.csproj|c:\\users\\zqy\\desktop\\zblog\\src\\webservice\\webservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67CB9020-5E64-4FD6-AA55-27F9EE9076B7}|WebService\\WebService.csproj|solutionrelative:webservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73B856DB-9FA5-486F-B873-F08CF2C35D52}|Entities\\Entities.csproj|c:\\users\\zqy\\desktop\\zblog\\src\\webservice\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73B856DB-9FA5-486F-B873-F08CF2C35D52}|Entities\\Entities.csproj|solutionrelative:entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73B856DB-9FA5-486F-B873-F08CF2C35D52}|Entities\\Entities.csproj|c:\\users\\zqy\\desktop\\zblog\\src\\webservice\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73B856DB-9FA5-486F-B873-F08CF2C35D52}|Entities\\Entities.csproj|solutionrelative:entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73B856DB-9FA5-486F-B873-F08CF2C35D52}|Entities\\Entities.csproj|c:\\users\\zqy\\desktop\\zblog\\src\\webservice\\entities\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -18,15 +22,12 @@
       "RelativeMoniker": "D:0:0:{73B856DB-9FA5-486F-B873-F08CF2C35D52}|Entities\\Entities.csproj|solutionrelative:entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73B856DB-9FA5-486F-B873-F08CF2C35D52}|Entities\\Entities.csproj|c:\\users\\zqy\\desktop\\zblog\\src\\webservice\\entities\\entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{73B856DB-9FA5-486F-B873-F08CF2C35D52}|Entities\\Entities.csproj|solutionrelative:entities\\entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.308\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AA86714D-9687-482F-8C41-B3D0CD9BD8D4}|Common\\Common.csproj|c:\\users\\zqy\\desktop\\zblog\\src\\webservice\\common\\common.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{AA86714D-9687-482F-8C41-B3D0CD9BD8D4}|Common\\Common.csproj|solutionrelative:common\\common.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73B856DB-9FA5-486F-B873-F08CF2C35D52}|Entities\\Entities.csproj|c:\\users\\zqy\\desktop\\zblog\\src\\webservice\\entities\\entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{73B856DB-9FA5-486F-B873-F08CF2C35D52}|Entities\\Entities.csproj|solutionrelative:entities\\entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C5BE122-A087-4CF3-AC4B-5CC3A038A1B0}|Contracts\\Service.csproj|c:\\users\\zqy\\desktop\\zblog\\src\\webservice\\contracts\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -35,6 +36,25 @@
     {
       "AbsoluteMoniker": "D:0:0:{67CB9020-5E64-4FD6-AA55-27F9EE9076B7}|WebService\\WebService.csproj|c:\\users\\zqy\\desktop\\zblog\\src\\webservice\\webservice\\webservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{67CB9020-5E64-4FD6-AA55-27F9EE9076B7}|WebService\\WebService.csproj|solutionrelative:webservice\\webservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67CB9020-5E64-4FD6-AA55-27F9EE9076B7}|WebService\\WebService.csproj|c:\\users\\zqy\\desktop\\zblog\\src\\webservice\\webservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67CB9020-5E64-4FD6-AA55-27F9EE9076B7}|WebService\\WebService.csproj|solutionrelative:webservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67CB9020-5E64-4FD6-AA55-27F9EE9076B7}|WebService\\WebService.csproj|c:\\users\\zqy\\desktop\\zblog\\src\\webservice\\webservice\\blogdbcontextfactory .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67CB9020-5E64-4FD6-AA55-27F9EE9076B7}|WebService\\WebService.csproj|solutionrelative:webservice\\blogdbcontextfactory .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67CB9020-5E64-4FD6-AA55-27F9EE9076B7}|WebService\\WebService.csproj|c:\\users\\zqy\\desktop\\zblog\\src\\webservice\\webservice\\blogdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67CB9020-5E64-4FD6-AA55-27F9EE9076B7}|WebService\\WebService.csproj|solutionrelative:webservice\\blogdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67CB9020-5E64-4FD6-AA55-27F9EE9076B7}|WebService\\WebService.csproj|c:\\users\\zqy\\desktop\\zblog\\src\\webservice\\webservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{67CB9020-5E64-4FD6-AA55-27F9EE9076B7}|WebService\\WebService.csproj|solutionrelative:webservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.308\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C5BE122-A087-4CF3-AC4B-5CC3A038A1B0}|Contracts\\Service.csproj|c:\\users\\zqy\\desktop\\zblog\\src\\webservice\\contracts\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -60,7 +80,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -89,45 +109,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\WebService\\Program.cs",
-              "RelativeDocumentMoniker": "WebService\\Program.cs",
-              "ToolTip": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\WebService\\Program.cs",
-              "RelativeToolTip": "WebService\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACUAAAA2AAAAAAAAAA==",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Entities\\User.cs",
+              "ToolTip": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\Entities\\User.cs",
+              "RelativeToolTip": "Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T23:24:12.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\Entities\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "Entities\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\Entities\\BaseEntity.cs",
-              "RelativeToolTip": "Entities\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T23:22:07.396Z",
+              "WhenOpened": "2025-12-21T23:37:57.438Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\Entities\\Tag.cs",
+              "RelativeDocumentMoniker": "Entities\\Tag.cs",
+              "ToolTip": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\Entities\\Tag.cs",
+              "RelativeToolTip": "Entities\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T23:35:41.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Blog.cs",
               "DocumentMoniker": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\Entities\\Blog.cs",
               "RelativeDocumentMoniker": "Entities\\Blog.cs",
               "ToolTip": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\Entities\\Blog.cs",
               "RelativeToolTip": "Entities\\Blog.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-21T23:16:06.974Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
+              "Title": "Service.csproj",
+              "DocumentMoniker": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\Contracts\\Service.csproj",
+              "RelativeDocumentMoniker": "Contracts\\Service.csproj",
+              "ToolTip": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\Contracts\\Service.csproj",
+              "RelativeToolTip": "Contracts\\Service.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-21T23:09:32.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Entities.csproj",
               "DocumentMoniker": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\Entities\\Entities.csproj",
               "RelativeDocumentMoniker": "Entities\\Entities.csproj",
@@ -141,38 +174,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.308\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.308\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.308\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.308\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "ViewState": "AgIAAKACAAAAAAAAAADgv7ECAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-12-21T23:09:46.416Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Service.csproj",
-              "DocumentMoniker": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\Contracts\\Service.csproj",
-              "RelativeDocumentMoniker": "Contracts\\Service.csproj",
-              "ToolTip": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\Contracts\\Service.csproj",
-              "RelativeToolTip": "Contracts\\Service.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-21T23:09:32.221Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Common.csproj",
               "DocumentMoniker": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\Common\\Common.csproj",
               "RelativeDocumentMoniker": "Common\\Common.csproj",
               "ToolTip": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\Common\\Common.csproj",
               "RelativeToolTip": "Common\\Common.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-12-21T23:13:09.518Z",
               "EditorCaption": ""
@@ -185,14 +192,104 @@
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AgIAALEVAAAAAAAAAAAvwEsWAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAoWAAAAAAAAAAAzwEsWAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
               "WhenOpened": "2025-12-21T23:12:55.836Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Entities\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "Entities\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T23:22:07.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WebService.csproj",
+              "DocumentMoniker": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\WebService\\WebService.csproj",
+              "RelativeDocumentMoniker": "WebService\\WebService.csproj",
+              "ToolTip": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\WebService\\WebService.csproj",
+              "RelativeToolTip": "WebService\\WebService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-21T23:16:29.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\WebService\\Program.cs",
+              "RelativeDocumentMoniker": "WebService\\Program.cs",
+              "ToolTip": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\WebService\\Program.cs",
+              "RelativeToolTip": "WebService\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T23:24:12.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "BlogDbContextFactory .cs",
+              "DocumentMoniker": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\WebService\\BlogDbContextFactory .cs",
+              "RelativeDocumentMoniker": "WebService\\BlogDbContextFactory .cs",
+              "ToolTip": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\WebService\\BlogDbContextFactory .cs",
+              "RelativeToolTip": "WebService\\BlogDbContextFactory .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T23:37:04.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BlogDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\WebService\\BlogDbContext.cs",
+              "RelativeDocumentMoniker": "WebService\\BlogDbContext.cs",
+              "ToolTip": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\WebService\\BlogDbContext.cs",
+              "RelativeToolTip": "WebService\\BlogDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T23:37:00.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\WebService\\appsettings.json",
+              "RelativeDocumentMoniker": "WebService\\appsettings.json",
+              "ToolTip": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\WebService\\appsettings.json",
+              "RelativeToolTip": "WebService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-21T23:36:56.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.308\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.308\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.308\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.308\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "ViewState": "AgIAAKACAAAAAAAAAADgv7ECAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-12-21T23:09:46.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "ITagService.cs",
               "DocumentMoniker": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\Contracts\\ITagService.cs",
               "RelativeDocumentMoniker": "Contracts\\ITagService.cs",
@@ -204,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\Contracts\\IUserService.cs",
               "RelativeDocumentMoniker": "Contracts\\IUserService.cs",
@@ -216,20 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "WebService.csproj",
-              "DocumentMoniker": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\WebService\\WebService.csproj",
-              "RelativeDocumentMoniker": "WebService\\WebService.csproj",
-              "ToolTip": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\WebService\\WebService.csproj",
-              "RelativeToolTip": "WebService\\WebService.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-21T23:16:29.715Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "IBlogService.cs",
               "DocumentMoniker": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\Contracts\\IBlogService.cs",
               "RelativeDocumentMoniker": "Contracts\\IBlogService.cs",
@@ -241,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "IBaseService.cs",
               "DocumentMoniker": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\WebService\\Contracts\\IBaseService.cs",
               "RelativeDocumentMoniker": "Contracts\\IBaseService.cs",
