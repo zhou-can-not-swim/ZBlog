@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\Client\\Client\\Client.csproj": {}
+    "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\Client\\Client\\Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\Client\\Client\\Client.csproj": {
+    "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\Client\\Client\\Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\Client\\Client\\Client.csproj",
+        "projectUniqueName": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\Client\\Client\\Client.csproj",
         "projectName": "Client",
-        "projectPath": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\Client\\Client\\Client.csproj",
-        "packagesPath": "C:\\Users\\zqy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zqy\\Desktop\\ZBlog\\Src\\Client\\Client\\obj\\",
+        "projectPath": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\Client\\Client\\Client.csproj",
+        "packagesPath": "C:\\Users\\qiyu.zhou\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\Client\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\zqy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\qiyu.zhou\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -50,6 +50,12 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "ReactiveUI": {
+              "target": "Package",
+              "version": "[22.3.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -69,7 +75,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

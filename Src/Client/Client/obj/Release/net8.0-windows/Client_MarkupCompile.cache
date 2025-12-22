@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\zqy\Desktop\ZBlog\Src\Client\Client\obj\Release\net8.0-windows\
+C:\Users\qiyu.zhou\Desktop\B\Src\Client\Client\obj\Release\net8.0-windows\
 Client
 none
 false
 TRACE;RELEASE;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\zqy\Desktop\ZBlog\Src\Client\Client\App.xaml
-11407045341
+C:\Users\qiyu.zhou\Desktop\B\Src\Client\Client\App.xaml
+4-1944076480
 
-4194063664
-198338916705
-MainWindow.xaml;
+131397693863
+198-1588478740
+MainWindow.xaml;Pages\Page1.xaml;Pages\Page2.xaml;Pages\Page3.xaml;
 
-True
+False
 

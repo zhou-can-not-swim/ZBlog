@@ -7,6 +7,23 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
 
+        <!-- 导航栏 -->
+        <StackPanel Orientation="Vertical" Background="LightGray" Grid.Row="0">
+            <Button Content="page1" Margin="5" Click="NavigateToPage1"/>
+            <Button Content="page2" Margin="5" Click="NavigateToPage2"/>
+            <Button Content="page3" Margin="5" Click="NavigateToPage3"/>
+        </StackPanel>
+
+        <!-- 内容区域 -->
+        <!-- 导航UI（用户界面）的可见性为“隐藏” 也就是前进后退那个按钮 
+        JournalOwnership="OwnsJournal"拥有并管理自己的独立导航日志
+    -->
+        <Frame x:Name="MainFrame" Grid.Column="1" NavigationUIVisibility="Hidden"
+       JournalOwnership="OwnsJournal"/>
     </Grid>
 </Window>
