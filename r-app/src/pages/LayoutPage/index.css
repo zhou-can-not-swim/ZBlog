@@ -1,0 +1,209 @@
+/* 整体页面布局 */
+.layout-page-container {
+    background: #f5f7fa;
+    min-height: 100vh;
+    padding: 24px;
+}
+
+/* 列表容器样式 */
+.ant-list-vertical .ant-list-item {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+    margin-bottom: 16px;
+    padding: 24px;
+    transition: all 0.3s ease;
+    border: 1px solid #f0f0f0;
+}
+
+.ant-list-vertical .ant-list-item:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transform: translateY(-2px);
+    border-color: #d9d9d9;
+}
+
+/* 列表项元数据 */
+.ant-list-item-meta {
+    margin-bottom: 12px;
+}
+
+.ant-list-item-meta-avatar {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.ant-list-item-meta-avatar:hover {
+    transform: scale(1.1);
+}
+
+.ant-list-item-meta-avatar .ant-avatar {
+    border: 2px solid #1890ff;
+    padding: 2px;
+}
+
+.ant-list-item-meta-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1f1f1f;
+    margin-bottom: 4px;
+}
+
+.ant-list-item-meta-title a {
+    color: #1890ff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.ant-list-item-meta-title a:hover {
+    color: #40a9ff;
+    text-decoration: underline;
+}
+
+.ant-list-item-meta-description {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* 内容区域 */
+.ant-list-item-content {
+    color: #444;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 12px 0;
+    padding: 12px 0;
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+/* 操作按钮区域 */
+.ant-list-item-action {
+    margin-top: 16px;
+    padding-top: 12px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.ant-list-item-action li {
+    color: #8c8c8c;
+    font-size: 14px;
+}
+
+.ant-list-item-action li:hover {
+    color: #1890ff;
+}
+
+.anticon {
+    margin-right: 6px;
+}
+
+/* 右侧图片样式 */
+.ant-list-item-extra {
+    margin-left: 40px;
+}
+
+.ant-list-item-extra img {
+    border-radius: 8px;
+    border: 1px solid #f0f0f0;
+    transition: all 0.3s ease;
+}
+
+.ant-list-item-extra img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* 分页器样式 */
+.ant-pagination {
+    margin-top: 32px;
+    text-align: center;
+}
+
+.ant-pagination-item {
+    border-radius: 6px;
+    border-color: #d9d9d9;
+}
+
+.ant-pagination-item:hover {
+    border-color: #1890ff;
+}
+
+.ant-pagination-item-active {
+    background: #1890ff;
+    border-color: #1890ff;
+}
+
+.ant-pagination-item-active a {
+    color: white;
+}
+
+/* 页脚样式 */
+.ant-list-footer {
+    text-align: center;
+    padding: 24px;
+    background: #fafafa;
+    border-radius: 8px;
+    margin-top: 24px;
+    color: #666;
+    font-size: 14px;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .layout-page-container {
+        padding: 12px;
+    }
+    
+    .ant-list-vertical .ant-list-item {
+        padding: 16px;
+    }
+    
+    .ant-list-item-extra {
+        display: block;
+        margin: 16px 0 0 0;
+        text-align: center;
+    }
+    
+    .ant-list-item-extra img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .ant-list-item-meta-avatar {
+        display: none;
+    }
+}
+
+/* 加载动画 */
+.ant-list-item {
+    animation: fadeInUp 0.5s ease-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 滚动条样式 */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
