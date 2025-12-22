@@ -10,3 +10,15 @@ C:\Users\zqy\Desktop\ZBlog\Src\WebService\Entities\obj\Debug\net8.0\Entities.dll
 C:\Users\zqy\Desktop\ZBlog\Src\WebService\Entities\obj\Debug\net8.0\refint\Entities.dll
 C:\Users\zqy\Desktop\ZBlog\Src\WebService\Entities\obj\Debug\net8.0\Entities.pdb
 C:\Users\zqy\Desktop\ZBlog\Src\WebService\Entities\obj\Debug\net8.0\ref\Entities.dll
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\Entities\bin\Debug\net8.0\Entities.deps.json
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\Entities\bin\Debug\net8.0\Entities.dll
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\Entities\bin\Debug\net8.0\Entities.pdb
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\Entities\obj\Debug\net8.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\Entities\obj\Debug\net8.0\Entities.AssemblyInfoInputs.cache
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\Entities\obj\Debug\net8.0\Entities.AssemblyInfo.cs
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\Entities\obj\Debug\net8.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\Entities\obj\Debug\net8.0\Entities.sourcelink.json
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\Entities\obj\Debug\net8.0\Entities.dll
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\Entities\obj\Debug\net8.0\refint\Entities.dll
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\Entities\obj\Debug\net8.0\Entities.pdb
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\Entities\obj\Debug\net8.0\ref\Entities.dll
