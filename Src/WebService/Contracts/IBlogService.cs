@@ -9,5 +9,6 @@ namespace Service
 {
     public interface IBlogService:IBaseService<Blog>
     {
+        Task<List<Blog>> GetAllBlogs();
     }
 }

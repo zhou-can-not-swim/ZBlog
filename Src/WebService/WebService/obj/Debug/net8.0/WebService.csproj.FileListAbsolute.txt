@@ -827,4 +827,8 @@ C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\obj\Debug\net8.0\refint\W
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\obj\Debug\net8.0\WebService.pdb
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\obj\Debug\net8.0\WebService.genruntimeconfig.cache
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\obj\Debug\net8.0\ref\WebService.dll
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\System.Net.Http.Formatting.dll
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\System.Web.Http.dll
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

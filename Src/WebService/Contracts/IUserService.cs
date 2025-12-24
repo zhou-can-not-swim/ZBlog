@@ -9,5 +9,6 @@ namespace Service
 {
     public interface IUserService:IBaseService<User>
     {
+        Task<List<User>> GetAllUsers();
     }
 }

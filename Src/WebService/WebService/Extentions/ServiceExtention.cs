@@ -8,7 +8,7 @@ namespace WebService.Extentions
         public static void ConfigureServiceScope(this IServiceCollection services)
         {
             services.AddScoped<IUserService, UserService>();
-            //services.AddScoped<IBlogService, BlogService>();
+            services.AddScoped<IBlogService, BlogService>();
             //services.AddScoped<ITagService, TagService>();
         }
     }
