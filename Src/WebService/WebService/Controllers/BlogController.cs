@@ -28,7 +28,22 @@ namespace WebService.Controllers
             }
             else
             {
-                return ApiResponse<List<Blog>>.ErrorResult("错误");
+                return ApiResponse<List<Blog>>.ErrorResult("查找所有文章错误");
+            }
+
+        }
+
+        [HttpGet()]
+        public async Task<ApiResponse<Blog>> GetBlogById([FromQuery]int id)
+        {
+            var blog = await _blogService.GetById(id); // 添加Include显示输出blogs
+            if (blog != null)
+            {
+                return ApiResponse<Blog>.SuccessResult(blog);
+            }
+            else
+            {
+                return ApiResponse<Blog>.ErrorResult("通过id查找的方式错误");
             }
 
         }

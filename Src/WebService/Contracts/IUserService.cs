@@ -10,5 +10,6 @@ namespace Service
     public interface IUserService:IBaseService<User>
     {
         Task<List<User>> GetAllUsers();
+        Task<User> GetById(int id);
     }
 }

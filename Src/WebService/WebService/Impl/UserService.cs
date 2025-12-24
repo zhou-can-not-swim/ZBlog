@@ -19,5 +19,10 @@ namespace WebService.Impl
             List<User> users = await FindAll().ToListAsync();
             return users;
         }
+
+        public async Task<User> GetById(int id)
+        {
+            return await FindByCondition(b => b.Id == id).Include(b=>b.Blogs).FirstOrDefaultAsync();
+        }
     }
 }

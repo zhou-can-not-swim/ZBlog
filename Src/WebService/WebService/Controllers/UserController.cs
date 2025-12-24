@@ -3,6 +3,7 @@ using Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Service;
+using System.Threading.Tasks;
 
 namespace WebService.Controllers
 {
@@ -27,8 +28,8 @@ namespace WebService.Controllers
             
         //}
 
-        [HttpGet("{id}")]
-        public ApiResponse<User> GetUser(int id)
+        [HttpGet()]
+        public async Task<ApiResponse<User>> GetUser([FromQuery]int id)
         {
             try
             {
@@ -38,11 +39,17 @@ namespace WebService.Controllers
                     return ApiResponse<User>.ErrorResult("ID必须大于0", (int)ApiCode.ParameterError);
                 }
 
-                // 模拟业务逻辑获取数据
-                var user = new User { Id = 1, Username = "张三", Email = "zhangsan@example.com" };
-
+                var user =await _userService.GetById(id);
                 // 返回成功响应（带数据）
-                return ApiResponse<User>.SuccessResult(user);
+                if (user != null)
+                {
+                    return ApiResponse<User>.SuccessResult(user);
+
+                }
+                else
+                {
+                    return ApiResponse<User>.ErrorResult("查无此人");
+                }
             }
             catch (Exception ex)
             {

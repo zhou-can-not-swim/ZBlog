@@ -18,5 +18,10 @@ namespace WebService.Impl
             List<Blog> blogs = await FindAll().ToListAsync();
             return blogs;
         }
+
+        public async Task<Blog> GetById(int id)
+        {
+            return await FindByCondition(b => b.Id == id).FirstOrDefaultAsync();
+        }
     }
 }

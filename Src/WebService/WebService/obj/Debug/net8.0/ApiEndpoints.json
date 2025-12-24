@@ -1,6 +1,32 @@
 [
   {
     "ContainingType": "WebService.Controllers.BlogController",
+    "Method": "GetBlogById",
+    "RelativePath": "api/blog",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Common.ApiResponse\u00601[[Entities.Blog, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebService.Controllers.BlogController",
     "Method": "GetAllBlogs",
     "RelativePath": "api/blog/all",
     "HttpMethod": "GET",
@@ -22,7 +48,7 @@
   {
     "ContainingType": "WebService.Controllers.UserController",
     "Method": "GetUser",
-    "RelativePath": "api/user/{id}",
+    "RelativePath": "api/user",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -30,7 +56,7 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": true
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [
