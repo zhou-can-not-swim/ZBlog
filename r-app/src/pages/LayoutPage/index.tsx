@@ -1,51 +1,49 @@
-import React, { useState, useMemo } from 'react';
-import { LikeOutlined, MessageOutlined, StarOutlined } from '@ant-design/icons';
+import React, { useState, useMemo, useEffect, useRef } from 'react';
 import { Avatar, Card, Col, Descriptions, List, Row, Space } from 'antd';
-import { Link, useNavigate } from 'react-router-dom';
 import "./index.css";
 
 import { Flex, Radio, Pagination } from 'antd';
-
-// const data = Array.from({ length: 23 }).map((_, i) => ({
-//   href: 'https://ant.design',
-//   title: `ant design part ${i}`,
-//   avatar: `/content/` + i,
-//   description:
-//     '这是简介',
-//   content:
-//     '这是内容',
-//   id: i
-// }));
+import { getAllBlogs } from '../../services/blogList';
 
 const LayoutPage: React.FC = () => {
   const PAGE_SIZE = 5; // 每页显示的数量
   const [len, setLen] = useState(100);
   const [currentPage, setCurrentPage] = useState(1); // 当前页码
+  const [data, setData] = useState<BlogApi.BlogItem[]>([])
 
+  const flag = useRef(true); // 防重复请求的 ref
 
+  useEffect(() => {
+    // 修复方式1：在 useEffect 内部使用 async/await（推荐）
+    const loadData = async () => {
+      if (flag.current) {
+        flag.current = false;
+        const response = await getAllBlogs();
+        setData(response.data)
 
-  const data = Array.from({ length: len }).map((_, i) => ({
-    href: 'https://ant.design',
-    title: `ant design part ${i}`,
-    avatar: `/content/` + i,
-    description:
-      '这是简介',
-    content:
-      '这是内容',
-    id: i
-  }));
+        console.log(data);
+        
+        return response;
+      }
+    };
 
+    loadData();
+  }, []);
+
+    useEffect(() => {
+      console.log("data 已更新:", data);
+  }, [data]);
+
+  
   // 生成所有数据
   const allData = useMemo(() => {
-    return Array.from({ length: len }).map((_, i) => ({
-      href: 'https://ant.design',
-      title: `ant design part ${i}`,
-      avatar: `/content/` + i,
-      description: '这是简介',
-      content: '这是内容',
-      id: i
+    return data.map(item => ({
+      id:item.id,
+      title: item.title,
+      description: item.description,
+      content: item.content
     }));
-  }, [len]);
+  }, [data]);
 
   // 根据当前页码计算要显示的数据
   const currentData = useMemo(() => {
@@ -87,7 +85,7 @@ const LayoutPage: React.FC = () => {
       <Pagination
         current={currentPage}
         defaultCurrent={1}
-        total={len}
+        total={data.length}
         pageSize={PAGE_SIZE}
         onChange={handlePageChange}
         showSizeChanger={false} // 如果需要每页数量选择器可以设为true
