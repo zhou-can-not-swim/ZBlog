@@ -3,16 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\Client\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FE8FE6C4-E7ED-4E79-9E9A-626DE8EFEC6E}|Client\\Client.csproj|c:\\users\\qiyu.zhou\\desktop\\b\\src\\client\\client\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FE8FE6C4-E7ED-4E79-9E9A-626DE8EFEC6E}|Client\\Client.csproj|solutionrelative:client\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8FE6C4-E7ED-4E79-9E9A-626DE8EFEC6E}|Client\\Client.csproj|c:\\users\\qiyu.zhou\\desktop\\b\\src\\client\\client\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE8FE6C4-E7ED-4E79-9E9A-626DE8EFEC6E}|Client\\Client.csproj|solutionrelative:client\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FE8FE6C4-E7ED-4E79-9E9A-626DE8EFEC6E}|Client\\Client.csproj|c:\\users\\qiyu.zhou\\desktop\\b\\src\\client\\client\\pages\\page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{FE8FE6C4-E7ED-4E79-9E9A-626DE8EFEC6E}|Client\\Client.csproj|solutionrelative:client\\pages\\page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE8FE6C4-E7ED-4E79-9E9A-626DE8EFEC6E}|Client\\Client.csproj|c:\\users\\qiyu.zhou\\desktop\\b\\src\\client\\client\\pages\\page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FE8FE6C4-E7ED-4E79-9E9A-626DE8EFEC6E}|Client\\Client.csproj|solutionrelative:client\\pages\\page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{FE8FE6C4-E7ED-4E79-9E9A-626DE8EFEC6E}|Client\\Client.csproj|c:\\users\\qiyu.zhou\\desktop\\b\\src\\client\\client\\pages\\page2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE8FE6C4-E7ED-4E79-9E9A-626DE8EFEC6E}|Client\\Client.csproj|solutionrelative:client\\pages\\page2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE8FE6C4-E7ED-4E79-9E9A-626DE8EFEC6E}|Client\\Client.csproj|c:\\users\\qiyu.zhou\\desktop\\b\\src\\client\\client\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FE8FE6C4-E7ED-4E79-9E9A-626DE8EFEC6E}|Client\\Client.csproj|solutionrelative:client\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{FE8FE6C4-E7ED-4E79-9E9A-626DE8EFEC6E}|Client\\Client.csproj|c:\\users\\qiyu.zhou\\desktop\\b\\src\\client\\client\\utils\\sqlitedatabasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE8FE6C4-E7ED-4E79-9E9A-626DE8EFEC6E}|Client\\Client.csproj|solutionrelative:client\\utils\\sqlitedatabasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8FE6C4-E7ED-4E79-9E9A-626DE8EFEC6E}|Client\\Client.csproj|c:\\users\\qiyu.zhou\\desktop\\b\\src\\client\\client\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE8FE6C4-E7ED-4E79-9E9A-626DE8EFEC6E}|Client\\Client.csproj|solutionrelative:client\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8FE6C4-E7ED-4E79-9E9A-626DE8EFEC6E}|Client\\Client.csproj|c:\\users\\qiyu.zhou\\desktop\\b\\src\\client\\client\\navigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE8FE6C4-E7ED-4E79-9E9A-626DE8EFEC6E}|Client\\Client.csproj|solutionrelative:client\\navigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8FE6C4-E7ED-4E79-9E9A-626DE8EFEC6E}|Client\\Client.csproj|c:\\users\\qiyu.zhou\\desktop\\b\\src\\client\\client\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE8FE6C4-E7ED-4E79-9E9A-626DE8EFEC6E}|Client\\Client.csproj|solutionrelative:client\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8FE6C4-E7ED-4E79-9E9A-626DE8EFEC6E}|Client\\Client.csproj|c:\\users\\qiyu.zhou\\desktop\\b\\src\\client\\client\\utils\\shortcutkey\\nativemethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE8FE6C4-E7ED-4E79-9E9A-626DE8EFEC6E}|Client\\Client.csproj|solutionrelative:client\\utils\\shortcutkey\\nativemethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8FE6C4-E7ED-4E79-9E9A-626DE8EFEC6E}|Client\\Client.csproj|c:\\users\\qiyu.zhou\\desktop\\b\\src\\client\\client\\utils\\shortcutkey\\hotkeymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE8FE6C4-E7ED-4E79-9E9A-626DE8EFEC6E}|Client\\Client.csproj|solutionrelative:client\\utils\\shortcutkey\\hotkeymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8FE6C4-E7ED-4E79-9E9A-626DE8EFEC6E}|Client\\Client.csproj|c:\\users\\qiyu.zhou\\desktop\\b\\src\\client\\client\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FE8FE6C4-E7ED-4E79-9E9A-626DE8EFEC6E}|Client\\Client.csproj|solutionrelative:client\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8FE6C4-E7ED-4E79-9E9A-626DE8EFEC6E}|Client\\Client.csproj|c:\\users\\qiyu.zhou\\desktop\\b\\src\\client\\client\\model\\urls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE8FE6C4-E7ED-4E79-9E9A-626DE8EFEC6E}|Client\\Client.csproj|solutionrelative:client\\model\\urls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8FE6C4-E7ED-4E79-9E9A-626DE8EFEC6E}|Client\\Client.csproj|c:\\users\\qiyu.zhou\\desktop\\b\\src\\client\\client\\pages\\page3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FE8FE6C4-E7ED-4E79-9E9A-626DE8EFEC6E}|Client\\Client.csproj|solutionrelative:client\\pages\\page3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8FE6C4-E7ED-4E79-9E9A-626DE8EFEC6E}|Client\\Client.csproj|c:\\users\\qiyu.zhou\\desktop\\b\\src\\client\\client\\pages\\page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FE8FE6C4-E7ED-4E79-9E9A-626DE8EFEC6E}|Client\\Client.csproj|solutionrelative:client\\pages\\page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FE8FE6C4-E7ED-4E79-9E9A-626DE8EFEC6E}|Client\\Client.csproj|c:\\users\\qiyu.zhou\\desktop\\b\\src\\client\\client\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,11 +70,152 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\Client\\Client\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Client\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\Client\\Client\\AssemblyInfo.cs",
+              "RelativeToolTip": "Client\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T09:21:33.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Page2.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\Client\\Client\\Pages\\Page2.xaml.cs",
+              "RelativeDocumentMoniker": "Client\\Pages\\Page2.xaml.cs",
+              "ToolTip": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\Client\\Client\\Pages\\Page2.xaml.cs",
+              "RelativeToolTip": "Client\\Pages\\Page2.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAMwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T08:47:19.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HotkeyManager.cs",
+              "DocumentMoniker": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\Client\\Client\\Utils\\ShortcutKey\\HotkeyManager.cs",
+              "RelativeDocumentMoniker": "Client\\Utils\\ShortcutKey\\HotkeyManager.cs",
+              "ToolTip": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\Client\\Client\\Utils\\ShortcutKey\\HotkeyManager.cs",
+              "RelativeToolTip": "Client\\Utils\\ShortcutKey\\HotkeyManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T08:44:39.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NativeMethods.cs",
+              "DocumentMoniker": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\Client\\Client\\Utils\\ShortcutKey\\NativeMethods.cs",
+              "RelativeDocumentMoniker": "Client\\Utils\\ShortcutKey\\NativeMethods.cs",
+              "ToolTip": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\Client\\Client\\Utils\\ShortcutKey\\NativeMethods.cs",
+              "RelativeToolTip": "Client\\Utils\\ShortcutKey\\NativeMethods.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T08:44:30.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NavigationService.cs",
+              "DocumentMoniker": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\Client\\Client\\NavigationService.cs",
+              "RelativeDocumentMoniker": "Client\\NavigationService.cs",
+              "ToolTip": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\Client\\Client\\NavigationService.cs",
+              "RelativeToolTip": "Client\\NavigationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T08:44:22.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\Client\\Client\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "Client\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\Client\\Client\\RelayCommand.cs",
+              "RelativeToolTip": "Client\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T08:44:17.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\Client\\Client\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Client\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\Client\\Client\\App.xaml.cs",
+              "RelativeToolTip": "Client\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T08:41:07.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\Client\\Client\\App.xaml",
+              "RelativeDocumentMoniker": "Client\\App.xaml",
+              "ToolTip": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\Client\\Client\\App.xaml",
+              "RelativeToolTip": "Client\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-29T08:41:05.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Urls.cs",
+              "DocumentMoniker": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\Client\\Client\\Model\\Urls.cs",
+              "RelativeDocumentMoniker": "Client\\Model\\Urls.cs",
+              "ToolTip": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\Client\\Client\\Model\\Urls.cs",
+              "RelativeToolTip": "Client\\Model\\Urls.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T08:28:13.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SQLiteDatabaseHelper.cs",
+              "DocumentMoniker": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\Client\\Client\\Utils\\SQLiteDatabaseHelper.cs",
+              "RelativeDocumentMoniker": "Client\\Utils\\SQLiteDatabaseHelper.cs",
+              "ToolTip": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\Client\\Client\\Utils\\SQLiteDatabaseHelper.cs",
+              "RelativeToolTip": "Client\\Utils\\SQLiteDatabaseHelper.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T08:22:57.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Page3.xaml",
+              "DocumentMoniker": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\Client\\Client\\Pages\\Page3.xaml",
+              "RelativeDocumentMoniker": "Client\\Pages\\Page3.xaml",
+              "ToolTip": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\Client\\Client\\Pages\\Page3.xaml",
+              "RelativeToolTip": "Client\\Pages\\Page3.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-22T09:08:22.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Page2.xaml",
               "DocumentMoniker": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\Client\\Client\\Pages\\Page2.xaml",
               "RelativeDocumentMoniker": "Client\\Pages\\Page2.xaml",
@@ -42,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "Page1.xaml",
               "DocumentMoniker": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\Client\\Client\\Pages\\Page1.xaml",
               "RelativeDocumentMoniker": "Client\\Pages\\Page1.xaml",
@@ -54,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\Client\\Client\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Client\\MainWindow.xaml",
@@ -66,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\Client\\Client\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Client\\MainWindow.xaml.cs",
