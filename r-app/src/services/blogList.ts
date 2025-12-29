@@ -13,16 +13,17 @@ export async function getAllBlogs(
   // options?: { [key: string]: any }
 ) {
   //<API.Resp<BlogApi.BlogItem[]>>
-  return await request('http://localhost:5031/api/blog/all', {
+  return await request('http://localhost:5000/api/blog/all', {
     method: 'GET',
     // params,
     // ...(options || {}),
   });
 }
 
-export function findOne(params: {id: string}, options?: {[key:string]: any})
+//通过id找blog
+export async function findOne(params: {id: string|undefined}, options?: {[key:string]: any})
 {
-    return request('/api/traces/traceinfo/Find',{
+    return await request('http://localhost:5000/api/blog/',{
         method: 'GET',
         headers: {
             'Content-Type': 'application/json',

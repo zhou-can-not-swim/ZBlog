@@ -21,7 +21,7 @@ const LayoutPage: React.FC = () => {
         const response = await getAllBlogs();
         setData(response.data)
 
-        console.log(data);
+        console.log("loadData--",data);
         
         return response;
       }
@@ -30,13 +30,17 @@ const LayoutPage: React.FC = () => {
     loadData();
   }, []);
 
-    useEffect(() => {
-      console.log("data 已更新:", data);
-  }, [data]);
+  //可以观察到data数据已经更新了，setData但不是实时的
+  //   useEffect(() => {
+  //     console.log("data 已更新:", data);
+  // }, [data]);
 
   
   // 生成所有数据
+  //allData其实已经调用过一次了，但是data是[]
   const allData = useMemo(() => {
+    console.log("allData--",data);
+    
     return data.map(item => ({
       id:item.id,
       title: item.title,
@@ -78,7 +82,6 @@ const LayoutPage: React.FC = () => {
         // </div>
         <Card key={item.id} size="small" title={item.title} extra={<a href={"/content/" + item.id}>查看详情 </a>} style={{ width: '50%', margin: "5px 0" }}>
           <p>{item.description}</p>
-          <p>{item.content}</p>
         </Card>
 
       ))}
