@@ -1,6 +1,8 @@
 import React, { useState, useMemo, useEffect, useRef } from 'react';
-import { Avatar, Card, Col, Descriptions, List, Row, Space } from 'antd';
-import "./index.css";
+import { Avatar, Button, Card, Col, Descriptions, List, Row, Space } from 'antd';
+// import "./index.css"
+
+import { UserOutlined } from '@ant-design/icons';
 
 import { Flex, Radio, Pagination } from 'antd';
 import { getAllBlogs } from '../../services/blogList';
@@ -64,27 +66,26 @@ const LayoutPage: React.FC = () => {
   };
 
 
+
   return (
 
 
-
-    <Flex vertical={true} align='center'>
+    <>    
+   
+    {/* <Card title="" extra={<Button>获取成为超级管理员</Button>} style={{ width: 300}}>
+      <Avatar size={64} icon={<UserOutlined />} />
+      <p>Card content</p>
+      <p>Card content</p>
+      <p>Card content</p>
+    </Card> */}
+    
+      <div>设置成为超级管理员</div>
       {currentData.map((item) => (
-        // <div
-        //   key={item.id}
-        //   style={{ ...baseStyle, backgroundColor: item.id % 2 ? '#1677ff' : '#1677ffbf' }}
-        // >
-        //   {/* 在 div 中显示数据 */}
-        //   <h3>{item.title}</h3>
-        //   <p>{item.description}</p>
-        //   <p>{item.content}</p>
-        //   <a href={item.href}>了解更多</a>
-        // </div>
-        <Card key={item.id} size="small" title={item.title} extra={<a href={"/content/" + item.id}>查看详情 </a>} style={{ width: '50%', margin: "5px 0" }}>
+        <Card key={item.id} size="small" title={item.title} extra={<a href={"/content/" + item.id}>查看详情 </a>} style={{ width: '40%', margin: "5px 0" }}>
           <p>{item.description}</p>
         </Card>
-
       ))}
+      
       <Pagination
         current={currentPage}
         defaultCurrent={1}
@@ -94,8 +95,9 @@ const LayoutPage: React.FC = () => {
         showSizeChanger={false} // 如果需要每页数量选择器可以设为true
         style={{ marginTop: 16 }}
       />
-    </Flex>
-
+    
+    </>
+    
   );
 };
 
