@@ -19,6 +19,9 @@ namespace EF.Mappings
                 .IsRequired()
                 .HasMaxLength(50);
 
+            entity.Property(e => e.Password)
+                .IsRequired();
+
             entity.Property(e => e.Email)
                 .IsRequired()
                 .HasMaxLength(100);
@@ -35,6 +38,7 @@ namespace EF.Mappings
                 {
                     Id = 1,
                     Username = "admin",
+                    Password="admin",
                     Email = "admin@example.com",
                     motto = "路漫漫其修远兮，吾将上下而求索",
                     CreatedAt = new DateTime(2024, 1, 1, 8, 0, 0)
@@ -43,6 +47,7 @@ namespace EF.Mappings
                 {
                     Id = 2,
                     Username = "techwriter",
+                    Password="admin",
                     Email = "tech@example.com",
                     motto = "分享知识，传递价值",
                     CreatedAt = new DateTime(2024, 1, 2, 10, 0, 0)
@@ -51,6 +56,7 @@ namespace EF.Mappings
                 {
                     Id = 3,
                     Username = "devlover",
+                    Password="admin",
                     Email = "dev@example.com",
                     motto = "代码改变世界",
                     CreatedAt = new DateTime(2024, 1, 3, 14, 0, 0)

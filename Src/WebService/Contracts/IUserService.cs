@@ -11,5 +11,6 @@ namespace Service
     {
         Task<List<User>> GetAllUsers();
         Task<User> GetById(int id);
+        Task<User?> GetByUserName(string username);
     }
 }

@@ -24,5 +24,10 @@ namespace WebService.Impl
         {
             return await FindByCondition(b => b.Id == id).Include(b=>b.Blogs).FirstOrDefaultAsync();
         }
+
+        public async Task<User> GetByUserName(string username)
+        {
+            return await FindByCondition(b => b.Username == username).FirstOrDefaultAsync();
+        }
     }
 }
