@@ -1,5 +1,6 @@
 using EF;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection;
 using WebService.Extentions;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -62,7 +63,8 @@ builder.Services.ConfigureMySqlConetxt(builder.Configuration); //иообнд
 builder.Services.ConfigureServiceScope();
 //builder.Services.AddAutoMapper(cfg => cfg.AddMaps(Assembly.GetExecutingAssembly()));
 
-
+// AutoMapper еДжц
+builder.Services.AddAutoMapper(cfg => cfg.AddMaps(Assembly.GetExecutingAssembly()));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

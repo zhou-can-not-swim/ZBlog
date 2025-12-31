@@ -9,6 +9,7 @@ namespace WebService.Impl
 {
     public class UserService : BaseService<User>,IUserService
     {
+
         public UserService(BlogDbContext dbContext) : base(dbContext)
         {
         }

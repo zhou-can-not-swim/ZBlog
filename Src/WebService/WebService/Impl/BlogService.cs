@@ -12,6 +12,7 @@ namespace WebService.Impl
         {
         }
 
+
         //得到所有博客
         public async Task<List<Blog>> GetAllBlogs()
         {
@@ -22,6 +23,12 @@ namespace WebService.Impl
         public async Task<Blog> GetById(int id)
         {
             return await FindByCondition(b => b.Id == id).FirstOrDefaultAsync();
+        }
+
+
+        public void AddBlogByContent(string content)
+        {
+            Create(new Blog { Content = content });
         }
     }
 }
