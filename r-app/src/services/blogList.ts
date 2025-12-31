@@ -45,3 +45,15 @@ export function removeProdBomItem(req: {traceInfoId: string; bomItemId: string},
         ...(options || {})
     });
 }
+
+export function submitBlogContent(req: {content: string}, options?: {[key:string]: any})
+{
+    return request('/api/blog/add',{
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        data: req,
+        ...(options || {})
+    });
+}

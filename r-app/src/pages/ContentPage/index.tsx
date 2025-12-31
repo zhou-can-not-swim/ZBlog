@@ -2,6 +2,7 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { findOne } from '../../services/blogList';
+import MarkD from "../../components/MdPreView/index"
 
 const ContentPage: React.FC = () => { // 移除 async 关键字
   const { id } = useParams<{ id: string }>();
@@ -50,19 +51,9 @@ const ContentPage: React.FC = () => { // 移除 async 关键字
 
   if (loading) return <div>加载中...</div>;
 
+  // 这个界面是预览界面
   return (
-    <div>
-      <h1>内容详情页</h1>
-      <p>当前内容ID: {id}</p>
-      <div>
-        {data == null ? '无' :
-          <>
-            <h2>{data?.title} </h2>
-            <p>{data?.content}</p>
-          </>
-        }
-      </div>
-    </div>
+      <MarkD blogDetail={{title:data?.title,content:data?.content}} ></MarkD>
   );
 };
 

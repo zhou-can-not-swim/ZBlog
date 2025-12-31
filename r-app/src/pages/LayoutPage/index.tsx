@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useEffect, useRef } from 'react';
 import { Avatar, Button, Card, Col, Descriptions, List, Row, Space } from 'antd';
-// import "./index.css"
+import "./index.css"
 
 import { UserOutlined } from '@ant-design/icons';
 
@@ -23,8 +23,8 @@ const LayoutPage: React.FC = () => {
         const response = await getAllBlogs();
         setData(response.data)
 
-        console.log("loadData--",data);
-        
+        console.log("loadData--", data);
+
         return response;
       }
     };
@@ -37,14 +37,14 @@ const LayoutPage: React.FC = () => {
   //     console.log("data 已更新:", data);
   // }, [data]);
 
-  
+
   // 生成所有数据
   //allData其实已经调用过一次了，但是data是[]
   const allData = useMemo(() => {
-    console.log("allData--",data);
-    
+    console.log("allData--", data);
+
     return data.map(item => ({
-      id:item.id,
+      id: item.id,
       title: item.title,
       description: item.description,
       content: item.content
@@ -68,36 +68,36 @@ const LayoutPage: React.FC = () => {
 
 
   return (
+    <>
+      <div className='pageBox'>
+        <div className='Card-Avatar-left'>
+          <Avatar></Avatar>
+        </div>
+
+        <div className='Content-right'>
+          {currentData.map((item) => (
+            <Card key={item.id} size="small" title={item.title} extra={<a href={"/content/" + item.id}>查看详情 </a>} style={{ width: '60%', margin: "5px 0" }}>
+              <p>{item.description}</p>
+            </Card>
+          ))}
+
+          <Pagination
+            current={currentPage}
+            defaultCurrent={1}
+            total={data.length}
+            pageSize={PAGE_SIZE}
+            onChange={handlePageChange}
+            showSizeChanger={false} // 如果需要每页数量选择器可以设为true
+            style={{ marginTop: 16,marginBottom:10 }}
+          />
+
+        </div>
+      </div>
 
 
-    <>    
-   
-    {/* <Card title="" extra={<Button>获取成为超级管理员</Button>} style={{ width: 300}}>
-      <Avatar size={64} icon={<UserOutlined />} />
-      <p>Card content</p>
-      <p>Card content</p>
-      <p>Card content</p>
-    </Card> */}
-    
-      <div>设置成为超级管理员</div>
-      {currentData.map((item) => (
-        <Card key={item.id} size="small" title={item.title} extra={<a href={"/content/" + item.id}>查看详情 </a>} style={{ width: '40%', margin: "5px 0" }}>
-          <p>{item.description}</p>
-        </Card>
-      ))}
-      
-      <Pagination
-        current={currentPage}
-        defaultCurrent={1}
-        total={data.length}
-        pageSize={PAGE_SIZE}
-        onChange={handlePageChange}
-        showSizeChanger={false} // 如果需要每页数量选择器可以设为true
-        style={{ marginTop: 16 }}
-      />
-    
+
     </>
-    
+
   );
 };
 

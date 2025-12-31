@@ -1,6 +1,8 @@
 // src/App.tsx
 import React, { useState } from 'react';
 import SimpleMDEditor from './SimpleMDEditor';
+// 先导入组件
+import ReactMarkdownPreview from '@uiw/react-markdown-preview';
 
 const MarkD: React.FC = () => {
   const [content, setContent] = useState<string>('');
@@ -38,7 +40,7 @@ console.log(message);
   return (
     <div style={{ padding: '20px', maxWidth: '1200px', margin: '0 auto' }}>
       <h1>MDEditor 富文本编辑器示例</h1>
-      
+
       {/* 使用编辑器 */}
       <SimpleMDEditor
         value={content}
@@ -46,44 +48,44 @@ console.log(message);
         height={400}
         placeholder="开始写作..."
       />
-      
+
       {/* 操作按钮 */}
       <div style={{ marginTop: '20px', display: 'flex', gap: '10px' }}>
-        <button 
+        <button
           onClick={getContent}
-          style={{ 
-            padding: '8px 16px', 
-            backgroundColor: '#1890ff', 
-            color: 'white', 
-            border: 'none', 
+          style={{
+            padding: '8px 16px',
+            backgroundColor: '#1890ff',
+            color: 'white',
+            border: 'none',
             borderRadius: '4px',
             cursor: 'pointer'
           }}
         >
           获取内容
         </button>
-        
-        <button 
+
+        <button
           onClick={clearContent}
-          style={{ 
-            padding: '8px 16px', 
-            backgroundColor: '#ff4d4f', 
-            color: 'white', 
-            border: 'none', 
+          style={{
+            padding: '8px 16px',
+            backgroundColor: '#ff4d4f',
+            color: 'white',
+            border: 'none',
             borderRadius: '4px',
             cursor: 'pointer'
           }}
         >
           清空内容
         </button>
-        
-        <button 
+
+        <button
           onClick={setPresetContent}
-          style={{ 
-            padding: '8px 16px', 
-            backgroundColor: '#52c41a', 
-            color: 'white', 
-            border: 'none', 
+          style={{
+            padding: '8px 16px',
+            backgroundColor: '#52c41a',
+            color: 'white',
+            border: 'none',
             borderRadius: '4px',
             cursor: 'pointer'
           }}
@@ -91,8 +93,8 @@ console.log(message);
           设置预设内容
         </button>
       </div>
-      
-      {/* 预览区域 */}
+
+      {/* 预览区域
       <div style={{ marginTop: '30px' }}>
         <h2>实时预览：</h2>
         <div style={{ 
@@ -101,9 +103,9 @@ console.log(message);
           minHeight: '200px',
           backgroundColor: '#fafafa',
           borderRadius: '4px'
-        }}>
-          {/* 直接显示HTML预览 */}
-          <div data-color-mode="light">
+        }}> */}
+      {/* 直接显示HTML预览 */}
+      {/* <div data-color-mode="light">
             <div className="wmde-markdown">
               {content ? (
                 <div dangerouslySetInnerHTML={{ 
@@ -120,14 +122,37 @@ console.log(message);
             </div>
           </div>
         </div>
+      </div> */}
+
+      // 预览区域替换为：
+      <div style={{ marginTop: '30px' }}>
+        <h2>实时预览：</h2>
+        <div style={{
+          border: '1px solid #e8e8e8',
+          padding: '20px',
+          minHeight: '200px',
+          backgroundColor: '#fafafa',
+          borderRadius: '4px'
+        }}>
+          {content ? (
+            <ReactMarkdownPreview
+              source={content}
+              style={{ backgroundColor: 'transparent' }}
+            />
+          ) : (
+            <div style={{ color: '#999', textAlign: 'center', padding: '40px' }}>
+              暂无内容
+            </div>
+          )}
+        </div>
       </div>
-      
+
       {/* 原始文本显示 */}
       <div style={{ marginTop: '30px' }}>
         <h2>原始Markdown：</h2>
-        <pre style={{ 
-          backgroundColor: '#f5f5f5', 
-          padding: '15px', 
+        <pre style={{
+          backgroundColor: '#f5f5f5',
+          padding: '15px',
           border: '1px solid #e8e8e8',
           borderRadius: '4px',
           overflow: 'auto',
