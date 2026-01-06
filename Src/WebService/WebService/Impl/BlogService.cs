@@ -30,5 +30,12 @@ namespace WebService.Impl
         {
             Create(new Blog { Content = content });
         }
+
+        public void AddByTitleDespContent(Blog blog)
+        {
+            Create(blog);
+        }
+
+
     }
 }

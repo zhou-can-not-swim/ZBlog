@@ -27,6 +27,32 @@
   },
   {
     "ContainingType": "WebService.Controllers.BlogController",
+    "Method": "AddBlog",
+    "RelativePath": "api/blog/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "blog",
+        "Type": "Entities.Dto.TitleDespContentToBlog",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Common.ApiResponse\u00601[[Entities.Blog, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebService.Controllers.BlogController",
     "Method": "GetAllBlogs",
     "RelativePath": "api/blog/all",
     "HttpMethod": "GET",

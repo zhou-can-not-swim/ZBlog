@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "DLb9YUn3R0Q=",
+  "dgSpecHash": "MiP6xZBdxnw=",
   "success": true,
   "projectFilePath": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\Service.Tests\\Service.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\qiyu.zhou\\.nuget\\packages\\automapper\\16.0.0\\automapper.16.0.0.nupkg.sha512",
     "C:\\Users\\qiyu.zhou\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\qiyu.zhou\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
+    "C:\\Users\\qiyu.zhou\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",
+    "C:\\Users\\qiyu.zhou\\.nuget\\packages\\mapster.core\\1.2.1\\mapster.core.1.2.1.nupkg.sha512",
     "C:\\Users\\qiyu.zhou\\.nuget\\packages\\microsoft.aspnet.webapi.client\\6.0.0\\microsoft.aspnet.webapi.client.6.0.0.nupkg.sha512",
     "C:\\Users\\qiyu.zhou\\.nuget\\packages\\microsoft.aspnet.webapi.core\\5.3.0\\microsoft.aspnet.webapi.core.5.3.0.nupkg.sha512",
     "C:\\Users\\qiyu.zhou\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

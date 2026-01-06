@@ -14,5 +14,9 @@ namespace Service
 
         //添加文章
         void AddBlogByContent(string content);
+        void AddByTitleDespContent(Blog blog);
+
+
+
     }
 }

@@ -9,5 +9,8 @@ namespace Service
         void Create(T entity);
         void Update(T entity);
         void Delete(T entity);
+
+        //保存
+        Task<int> SaveChanges();
     }
 }

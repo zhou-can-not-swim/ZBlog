@@ -13,11 +13,11 @@ namespace Entities
         public string Description { get; set; }
         public string Content { get; set; }
 
-        public int AuthorId { get; set; }
+        public int AuthorId { get; set; } = 1;
         [JsonIgnore]
         public User Author { get; set; }
 
-        public int TagId { get; set; }
+        public int TagId { get; set; } = 1;
         [JsonIgnore]
         public Tag _Tag { get; set; }
 

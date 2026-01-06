@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{67CB9020-5E64-4FD6-AA55-27F9EE9076B7}|WebService\\WebService.csproj|c:\\users\\qiyu.zhou\\desktop\\b\\src\\webservice\\webservice\\impl\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67CB9020-5E64-4FD6-AA55-27F9EE9076B7}|WebService\\WebService.csproj|solutionrelative:webservice\\impl\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67CB9020-5E64-4FD6-AA55-27F9EE9076B7}|WebService\\WebService.csproj|c:\\users\\qiyu.zhou\\desktop\\b\\src\\webservice\\webservice\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67CB9020-5E64-4FD6-AA55-27F9EE9076B7}|WebService\\WebService.csproj|solutionrelative:webservice\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{443FBC69-4DD3-4222-8EF9-0D2296C93015}|Service.Tests\\Service.Tests.csproj|c:\\users\\qiyu.zhou\\desktop\\b\\src\\webservice\\service.tests\\testblogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{443FBC69-4DD3-4222-8EF9-0D2296C93015}|Service.Tests\\Service.Tests.csproj|solutionrelative:service.tests\\testblogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73B856DB-9FA5-486F-B873-F08CF2C35D52}|Entities\\Entities.csproj|c:\\users\\qiyu.zhou\\desktop\\b\\src\\webservice\\entities\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73B856DB-9FA5-486F-B873-F08CF2C35D52}|Entities\\Entities.csproj|solutionrelative:entities\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{443FBC69-4DD3-4222-8EF9-0D2296C93015}|Service.Tests\\Service.Tests.csproj|c:\\users\\qiyu.zhou\\desktop\\b\\src\\webservice\\service.tests\\testuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{443FBC69-4DD3-4222-8EF9-0D2296C93015}|Service.Tests\\Service.Tests.csproj|solutionrelative:service.tests\\testuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67CB9020-5E64-4FD6-AA55-27F9EE9076B7}|WebService\\WebService.csproj|c:\\users\\qiyu.zhou\\desktop\\b\\src\\webservice\\webservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67CB9020-5E64-4FD6-AA55-27F9EE9076B7}|WebService\\WebService.csproj|solutionrelative:webservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02B79BC5-153E-2FD9-CAE3-8149E0D9044F}|Service\\Service.csproj|c:\\users\\qiyu.zhou\\desktop\\b\\src\\webservice\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02B79BC5-153E-2FD9-CAE3-8149E0D9044F}|Service\\Service.csproj|solutionrelative:service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67CB9020-5E64-4FD6-AA55-27F9EE9076B7}|WebService\\WebService.csproj|c:\\users\\qiyu.zhou\\desktop\\b\\src\\webservice\\webservice\\impl\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67CB9020-5E64-4FD6-AA55-27F9EE9076B7}|WebService\\WebService.csproj|solutionrelative:webservice\\impl\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67CB9020-5E64-4FD6-AA55-27F9EE9076B7}|WebService\\WebService.csproj|c:\\users\\qiyu.zhou\\desktop\\b\\src\\webservice\\webservice\\impl\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67CB9020-5E64-4FD6-AA55-27F9EE9076B7}|WebService\\WebService.csproj|solutionrelative:webservice\\impl\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{02B79BC5-153E-2FD9-CAE3-8149E0D9044F}|Service\\Service.csproj|c:\\users\\qiyu.zhou\\desktop\\b\\src\\webservice\\service\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,14 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{02B79BC5-153E-2FD9-CAE3-8149E0D9044F}|Service\\Service.csproj|c:\\users\\qiyu.zhou\\desktop\\b\\src\\webservice\\service\\iblogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02B79BC5-153E-2FD9-CAE3-8149E0D9044F}|Service\\Service.csproj|solutionrelative:service\\iblogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02B79BC5-153E-2FD9-CAE3-8149E0D9044F}|Service\\Service.csproj|c:\\users\\qiyu.zhou\\desktop\\b\\src\\webservice\\service\\itagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02B79BC5-153E-2FD9-CAE3-8149E0D9044F}|Service\\Service.csproj|solutionrelative:service\\itagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{443FBC69-4DD3-4222-8EF9-0D2296C93015}|Service.Tests\\Service.Tests.csproj|c:\\users\\qiyu.zhou\\desktop\\b\\src\\webservice\\service.tests\\service.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{443FBC69-4DD3-4222-8EF9-0D2296C93015}|Service.Tests\\Service.Tests.csproj|solutionrelative:service.tests\\service.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 158,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,132 +54,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BlogService.cs",
-              "DocumentMoniker": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\WebService\\Impl\\BlogService.cs",
-              "RelativeDocumentMoniker": "WebService\\Impl\\BlogService.cs",
-              "ToolTip": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\WebService\\Impl\\BlogService.cs",
-              "RelativeToolTip": "WebService\\Impl\\BlogService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T07:46:35.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TestBlogService.cs",
-              "DocumentMoniker": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\Service.Tests\\TestBlogService.cs",
-              "RelativeDocumentMoniker": "Service.Tests\\TestBlogService.cs",
-              "ToolTip": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\Service.Tests\\TestBlogService.cs",
-              "RelativeToolTip": "Service.Tests\\TestBlogService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Title": "Blog.cs",
+              "DocumentMoniker": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\Entities\\Blog.cs",
+              "RelativeDocumentMoniker": "Entities\\Blog.cs",
+              "ToolTip": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\Entities\\Blog.cs",
+              "RelativeToolTip": "Entities\\Blog.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAswBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T07:45:02.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T05:42:43.482Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\WebService\\Impl\\UserService.cs",
-              "RelativeDocumentMoniker": "WebService\\Impl\\UserService.cs",
-              "ToolTip": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\WebService\\Impl\\UserService.cs",
-              "RelativeToolTip": "WebService\\Impl\\UserService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAWwB4AAAA4AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "BaseService.cs",
+              "DocumentMoniker": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\WebService\\Impl\\BaseService.cs",
+              "RelativeDocumentMoniker": "WebService\\Impl\\BaseService.cs",
+              "ToolTip": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\WebService\\Impl\\BaseService.cs",
+              "RelativeToolTip": "WebService\\Impl\\BaseService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T07:31:49.162Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T05:36:48.771Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\WebService\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "WebService\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\WebService\\Controllers\\UserController.cs",
-              "RelativeToolTip": "WebService\\Controllers\\UserController.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAFsAAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T07:30:00.498Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\Service\\IUserService.cs",
-              "RelativeDocumentMoniker": "Service\\IUserService.cs",
-              "ToolTip": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\Service\\IUserService.cs",
-              "RelativeToolTip": "Service\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T07:28:28.475Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ITagService.cs",
-              "DocumentMoniker": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\Service\\ITagService.cs",
-              "RelativeDocumentMoniker": "Service\\ITagService.cs",
-              "ToolTip": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\Service\\ITagService.cs",
-              "RelativeToolTip": "Service\\ITagService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T07:28:27.764Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IBlogService.cs",
-              "DocumentMoniker": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\Service\\IBlogService.cs",
-              "RelativeDocumentMoniker": "Service\\IBlogService.cs",
-              "ToolTip": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\Service\\IBlogService.cs",
-              "RelativeToolTip": "Service\\IBlogService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T07:28:24.321Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "IBaseService.cs",
               "DocumentMoniker": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\Service\\IBaseService.cs",
               "RelativeDocumentMoniker": "Service\\IBaseService.cs",
               "ToolTip": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\Service\\IBaseService.cs",
               "RelativeToolTip": "Service\\IBaseService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T07:28:21.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T05:36:42.22Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Service.Tests.csproj",
-              "DocumentMoniker": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\Service.Tests\\Service.Tests.csproj",
-              "RelativeDocumentMoniker": "Service.Tests\\Service.Tests.csproj",
-              "ToolTip": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\Service.Tests\\Service.Tests.csproj",
-              "RelativeToolTip": "Service.Tests\\Service.Tests.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-31T07:18:26.441Z",
-              "EditorCaption": ""
+              "DocumentIndex": 4,
+              "Title": "IBlogService.cs",
+              "DocumentMoniker": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\Service\\IBlogService.cs",
+              "RelativeDocumentMoniker": "Service\\IBlogService.cs",
+              "ToolTip": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\Service\\IBlogService.cs",
+              "RelativeToolTip": "Service\\IBlogService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T05:36:29.525Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TestUserService.cs",
-              "DocumentMoniker": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\Service.Tests\\TestUserService.cs",
-              "RelativeDocumentMoniker": "Service.Tests\\TestUserService.cs",
-              "ToolTip": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\Service.Tests\\TestUserService.cs",
-              "RelativeToolTip": "Service.Tests\\TestUserService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "BlogController.cs",
+              "DocumentMoniker": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\WebService\\Controllers\\BlogController.cs",
+              "RelativeDocumentMoniker": "WebService\\Controllers\\BlogController.cs",
+              "ToolTip": "C:\\Users\\qiyu.zhou\\Desktop\\B\\Src\\WebService\\WebService\\Controllers\\BlogController.cs",
+              "RelativeToolTip": "WebService\\Controllers\\BlogController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADkAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T05:40:46.743Z",
+              "WhenOpened": "2026-01-05T05:35:05.802Z",
               "EditorCaption": ""
             }
           ]

@@ -2,6 +2,7 @@
 using Common;
 using Entities;
 using Entities.Dto;
+using Mapster;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Service;
@@ -14,12 +15,10 @@ namespace WebService.Controllers
     {
 
         private readonly IBlogService _blogService;
-        private readonly IMapper _mapper;
 
-        public BlogController(IBlogService blogService,IMapper mapper)
+        public BlogController(IBlogService blogService)
         {
             _blogService = blogService;
-            _mapper = mapper;
         }
 
         [HttpGet("all")]
@@ -53,10 +52,13 @@ namespace WebService.Controllers
         }
 
         [HttpPost("add")]
-        public async Task<ApiResponse<Blog>> AddBlogByContent([FromBody] ContentToBlog blog)
+        public async Task<ApiResponse<Blog>> AddBlog([FromBody] TitleDespContentToBlog blog)
         {
 
-            Blog _blog = _mapper.Map<ContentToBlog, Blog>(blog);
+            var _blog = blog.Adapt<Blog>();
+            _blogService.AddByTitleDespContent(_blog);
+            await _blogService.SaveChanges();
+            return ApiResponse<Blog>.SuccessResult(_blog);
 
         }
 

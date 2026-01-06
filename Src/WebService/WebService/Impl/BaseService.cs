@@ -38,5 +38,11 @@ namespace Service.Impl
         {
             DbContext.Set<T>().Remove(entity);
         }
+
+        public async Task<int> SaveChanges()
+        {
+            return await DbContext.SaveChangesAsync();
+        }
+
     }
 }

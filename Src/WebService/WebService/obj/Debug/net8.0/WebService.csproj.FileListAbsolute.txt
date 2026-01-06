@@ -530,7 +530,6 @@ C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\refs\Mic
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Xml.dll
-C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\refs\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.Abstractions.dll
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.dll
@@ -549,7 +548,6 @@ C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\refs\Mic
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\refs\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\refs\Microsoft.Extensions.Localization.dll
-C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Configuration.dll
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Console.dll
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Debug.dll
@@ -560,8 +558,6 @@ C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\refs\Mic
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\refs\Microsoft.Extensions.ObjectPool.dll
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
-C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.dll
-C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\refs\Microsoft.Extensions.Primitives.dll
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\refs\Microsoft.Extensions.WebEncoders.dll
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\refs\Microsoft.JSInterop.dll
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\refs\Microsoft.Net.Http.Headers.dll
@@ -592,7 +588,6 @@ C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\refs\Sys
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\refs\System.Data.dll
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\refs\System.Diagnostics.Contracts.dll
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\refs\System.Diagnostics.Debug.dll
-C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\refs\System.Diagnostics.DiagnosticSource.dll
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\refs\System.Diagnostics.EventLog.dll
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\refs\System.Diagnostics.FileVersionInfo.dll
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\refs\System.Diagnostics.Process.dll
@@ -825,10 +820,22 @@ C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\obj\Debug\net8.0\staticwe
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\obj\Debug\net8.0\WebService.csproj.Up2Date
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\obj\Debug\net8.0\WebService.dll
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\obj\Debug\net8.0\refint\WebService.dll
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\obj\Debug\net8.0\WebService.pdb
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\obj\Debug\net8.0\WebService.genruntimeconfig.cache
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\obj\Debug\net8.0\ref\WebService.dll
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\Mapster.dll
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\Mapster.Core.dll
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -5,13 +5,12 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace WebService
 {
-    public class MappingProfile : Profile
-    {
-        public MappingProfile()
-        {
-            //CreateMap<UserForCreationDto, User>();
-            CreateMap<ContentToBlog, Blog>();
+    //public class MappingProfile : Profile
+    //{
+    //    public MappingProfile()
+    //    {
+    //        CreateMap<TitleDespContentToBlog, Blog>();
 
-        }
-    }
+    //    }
+    //}
 }

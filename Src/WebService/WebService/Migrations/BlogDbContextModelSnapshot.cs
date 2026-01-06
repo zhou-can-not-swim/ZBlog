@@ -281,91 +281,91 @@ namespace WebService.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2025, 12, 24, 17, 5, 57, 942, DateTimeKind.Local).AddTicks(6441),
+                            CreatedAt = new DateTime(2026, 1, 5, 13, 43, 49, 822, DateTimeKind.Local).AddTicks(5623),
                             Name = "C#"
                         },
                         new
                         {
                             Id = 2,
-                            CreatedAt = new DateTime(2025, 12, 24, 17, 5, 57, 942, DateTimeKind.Local).AddTicks(6461),
+                            CreatedAt = new DateTime(2026, 1, 5, 13, 43, 49, 822, DateTimeKind.Local).AddTicks(5640),
                             Name = ".NET"
                         },
                         new
                         {
                             Id = 3,
-                            CreatedAt = new DateTime(2025, 12, 24, 17, 5, 57, 942, DateTimeKind.Local).AddTicks(6464),
+                            CreatedAt = new DateTime(2026, 1, 5, 13, 43, 49, 822, DateTimeKind.Local).AddTicks(5642),
                             Name = "ASP.NET Core"
                         },
                         new
                         {
                             Id = 4,
-                            CreatedAt = new DateTime(2025, 12, 24, 17, 5, 57, 942, DateTimeKind.Local).AddTicks(6468),
+                            CreatedAt = new DateTime(2026, 1, 5, 13, 43, 49, 822, DateTimeKind.Local).AddTicks(5643),
                             Name = "Entity Framework"
                         },
                         new
                         {
                             Id = 5,
-                            CreatedAt = new DateTime(2025, 12, 24, 17, 5, 57, 942, DateTimeKind.Local).AddTicks(6470),
+                            CreatedAt = new DateTime(2026, 1, 5, 13, 43, 49, 822, DateTimeKind.Local).AddTicks(5645),
                             Name = "MySQL"
                         },
                         new
                         {
                             Id = 6,
-                            CreatedAt = new DateTime(2025, 12, 24, 17, 5, 57, 942, DateTimeKind.Local).AddTicks(6473),
+                            CreatedAt = new DateTime(2026, 1, 5, 13, 43, 49, 822, DateTimeKind.Local).AddTicks(5646),
                             Name = "数据库"
                         },
                         new
                         {
                             Id = 7,
-                            CreatedAt = new DateTime(2025, 12, 24, 17, 5, 57, 942, DateTimeKind.Local).AddTicks(6476),
+                            CreatedAt = new DateTime(2026, 1, 5, 13, 43, 49, 822, DateTimeKind.Local).AddTicks(5648),
                             Name = "编程"
                         },
                         new
                         {
                             Id = 8,
-                            CreatedAt = new DateTime(2025, 12, 24, 17, 5, 57, 942, DateTimeKind.Local).AddTicks(6479),
+                            CreatedAt = new DateTime(2026, 1, 5, 13, 43, 49, 822, DateTimeKind.Local).AddTicks(5649),
                             Name = "教程"
                         },
                         new
                         {
                             Id = 9,
-                            CreatedAt = new DateTime(2025, 12, 24, 17, 5, 57, 942, DateTimeKind.Local).AddTicks(6482),
+                            CreatedAt = new DateTime(2026, 1, 5, 13, 43, 49, 822, DateTimeKind.Local).AddTicks(5651),
                             Name = "优化"
                         },
                         new
                         {
                             Id = 10,
-                            CreatedAt = new DateTime(2025, 12, 24, 17, 5, 57, 942, DateTimeKind.Local).AddTicks(6485),
+                            CreatedAt = new DateTime(2026, 1, 5, 13, 43, 49, 822, DateTimeKind.Local).AddTicks(5652),
                             Name = "Web API"
                         },
                         new
                         {
                             Id = 11,
-                            CreatedAt = new DateTime(2025, 12, 24, 17, 5, 57, 942, DateTimeKind.Local).AddTicks(6488),
+                            CreatedAt = new DateTime(2026, 1, 5, 13, 43, 49, 822, DateTimeKind.Local).AddTicks(5654),
                             Name = "RESTful"
                         },
                         new
                         {
                             Id = 12,
-                            CreatedAt = new DateTime(2025, 12, 24, 17, 5, 57, 942, DateTimeKind.Local).AddTicks(6490),
+                            CreatedAt = new DateTime(2026, 1, 5, 13, 43, 49, 822, DateTimeKind.Local).AddTicks(5655),
                             Name = "依赖注入"
                         },
                         new
                         {
                             Id = 13,
-                            CreatedAt = new DateTime(2025, 12, 24, 17, 5, 57, 942, DateTimeKind.Local).AddTicks(6493),
+                            CreatedAt = new DateTime(2026, 1, 5, 13, 43, 49, 822, DateTimeKind.Local).AddTicks(5656),
                             Name = "设计模式"
                         },
                         new
                         {
                             Id = 14,
-                            CreatedAt = new DateTime(2025, 12, 24, 17, 5, 57, 942, DateTimeKind.Local).AddTicks(6496),
+                            CreatedAt = new DateTime(2026, 1, 5, 13, 43, 49, 822, DateTimeKind.Local).AddTicks(5658),
                             Name = "ORM"
                         },
                         new
                         {
                             Id = 15,
-                            CreatedAt = new DateTime(2025, 12, 24, 17, 5, 57, 942, DateTimeKind.Local).AddTicks(6498),
+                            CreatedAt = new DateTime(2026, 1, 5, 13, 43, 49, 822, DateTimeKind.Local).AddTicks(5659),
                             Name = "性能"
                         });
                 });
@@ -383,6 +383,10 @@ namespace WebService.Migrations
                         .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("varchar(100)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
                     b.Property<string>("Username")
                         .IsRequired()
@@ -404,6 +408,7 @@ namespace WebService.Migrations
                             Id = 1,
                             CreatedAt = new DateTime(2024, 1, 1, 8, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "admin@example.com",
+                            Password = "admin",
                             Username = "admin",
                             motto = "路漫漫其修远兮，吾将上下而求索"
                         },
@@ -412,6 +417,7 @@ namespace WebService.Migrations
                             Id = 2,
                             CreatedAt = new DateTime(2024, 1, 2, 10, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "tech@example.com",
+                            Password = "admin",
                             Username = "techwriter",
                             motto = "分享知识，传递价值"
                         },
@@ -420,6 +426,7 @@ namespace WebService.Migrations
                             Id = 3,
                             CreatedAt = new DateTime(2024, 1, 3, 14, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "dev@example.com",
+                            Password = "admin",
                             Username = "devlover",
                             motto = "代码改变世界"
                         });
