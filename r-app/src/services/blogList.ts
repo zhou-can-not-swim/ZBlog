@@ -46,9 +46,10 @@ export function removeProdBomItem(req: {traceInfoId: string; bomItemId: string},
     });
 }
 
-export function submitBlogContent(req: {content: string}, options?: {[key:string]: any})
+//后端添加博客接口
+export async function submitBlogContent(req: {title?:string,description?:string,content?: string}, options?: {[key:string]: any})
 {
-    return request('/api/blog/add',{
+    return await request('http://localhost:5000/api/blog/add',{
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
