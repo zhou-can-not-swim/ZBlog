@@ -1,6 +1,11 @@
 using EF;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using Serilog;
 using System.Reflection;
+using System.Security.Claims;
+using System.Text;
 using WebService.Extentions;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +17,58 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
+//从配置文中读取Serilog配置
+builder.Services.AddSerilog((services, lc) => lc
+    .ReadFrom.Configuration(builder.Configuration)
+    .ReadFrom.Services(services)//允许 Serilog 从 DI 容器中解析服务（比如 ILogger<T>）。
+    .Enrich.FromLogContext());//允许在日志中添加额外的上下文信息，比如请求ID、用户ID等。
+
+#region 身份验证
+// 配置认证服务
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+.AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = builder.Configuration["Jwt:Issuer"],
+        ValidAudience = builder.Configuration["Jwt:Audience"],
+        IssuerSigningKey = new SymmetricSecurityKey(
+            Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+    };
+
+    // 可选：自定义事件处理
+    options.Events = new JwtBearerEvents
+    {
+        OnAuthenticationFailed = context =>
+        {
+            Console.WriteLine($"认证失败: {context.Exception.Message}");
+            return Task.CompletedTask;
+        }
+    };
+});
+
+// 配置授权策略
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("AdminOnly", policy =>
+        policy.RequireRole("Admin"));
+
+    options.AddPolicy("Over18", policy =>
+        policy.RequireAssertion(context =>
+            context.User.HasClaim(c =>
+                c.Type == ClaimTypes.DateOfBirth &&
+                DateTime.Parse(c.Value).AddYears(18) <= DateTime.Today)));
+});
+#endregion
 //添加跨域
 builder.Services.AddCors(options =>
 {
@@ -79,4 +136,10 @@ app.UseCors("AllowWithCredentials"); // 使用跨域策略
 
 
 app.MapControllers();       // 映射 API 
+
+#region 启用认证和授权中间件（顺序很重要！）
+// 启用认证和授权中间件（顺序很重要！）
+app.UseAuthentication();
+app.UseAuthorization();
+#endregion
 app.Run();

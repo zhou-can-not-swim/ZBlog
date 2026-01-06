@@ -839,3 +839,16 @@ C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\System.D
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\Mapster.dll
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\Mapster.Core.dll
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\Serilog.dll
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\Serilog.Sinks.File.dll
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
