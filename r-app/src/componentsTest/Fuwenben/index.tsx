@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import MyEditor from './MyEditor';
 
-const App1: React.FC = () => {
+const Fuwenben: React.FC = () => {
   const [editorContent, setEditorContent] = useState<string>('');
 
   // 获取编辑器内容
@@ -85,4 +85,4 @@ const App1: React.FC = () => {
   );
 };
 
-export default App1;
+export default Fuwenben;

@@ -13,6 +13,7 @@ const AppComponent = () => {
         <Link to="/test/store">store--</Link>
         <Link to="/test/md">md--</Link>
         <Link to="/test/fuwenben">富文本--</Link>
+        <Link to="/test/role">权限测试--</Link>
         {/* <Link to="recipes/beam">Beam配方</Link> */}
       </nav>
       
