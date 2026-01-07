@@ -3,9 +3,11 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json.Linq;
+using Service;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using WebService.Impl;
 
 namespace WebService.Controllers
 {
@@ -15,26 +17,37 @@ namespace WebService.Controllers
     {
 
         private IConfiguration _configuration;
-        public AccountController(IConfiguration configuration)
+        private IUserService _userService;
+        private ILogger<AccountController> _logger;
+        public AccountController(IConfiguration configuration, IUserService userService, ILogger<AccountController> logger)
         {
             _configuration = configuration;
+            _userService = userService;
+            _logger = logger;
         }
 
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginDto model)
         {
             // 验证用户凭证
-            if (model.Username != null || model.Password != null)
+            _logger.LogInformation("尝试登录用户名：", model.Username,"密码：",model.Password);
+            //获取用户名和密码进行验证，这里简化为只要不为空即通过
+            var user = _userService.GetByUserName(model.Username);
+            if (user.Result.Password != model.Password) { 
+                _logger.LogWarning("登录失败，密码错误：", model.Username);
+                return Unauthorized();
+            }
+            
+            if (user != null)
             {
                 var claims = new[]
                 {
-                new Claim(ClaimTypes.Name, model.Username),
-                new Claim(ClaimTypes.Role, "User"),
-                new Claim(ClaimTypes.NameIdentifier, Guid.NewGuid().ToString())
-            };
+                    new Claim(ClaimTypes.Name, model.Username),
+                    new Claim(ClaimTypes.Role, model.Username),
+                    new Claim(ClaimTypes.NameIdentifier, Guid.NewGuid().ToString())
+                };
 
-                var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(
-                    _configuration["Jwt:Key"]));
+                var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
                 var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
                 string? minutes = _configuration["Jwt:ExpireMinutes"];
                 //安全转换，提供默认值
@@ -50,10 +63,13 @@ namespace WebService.Controllers
                     expires: DateTime.Now.AddMinutes(expireMinutes),
                     signingCredentials: creds);
 
-                return Ok(new { token = new JwtSecurityTokenHandler().WriteToken(token) });
+                return Ok(new {username=user.Result.Username,email=user.Result.Email, token = new JwtSecurityTokenHandler().WriteToken(token) });
             }
-
-            return Unauthorized();
+            else
+            {
+                _logger.LogWarning("登录失败，用户名不存在：", model.Username);
+                return Unauthorized();
+            }     
         }
 
         ////进阶版本

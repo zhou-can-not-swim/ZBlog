@@ -98,6 +98,26 @@
     ]
   },
   {
+    "ContainingType": "WebService.Controllers.TestController",
+    "Method": "GetPrivateData",
+    "RelativePath": "api/test/private",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebService.Controllers.TestController",
+    "Method": "GetPublicData",
+    "RelativePath": "api/test/public",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebService.Controllers.UserController",
     "Method": "GetUser",
     "RelativePath": "api/user",

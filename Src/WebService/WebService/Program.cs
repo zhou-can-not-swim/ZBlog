@@ -60,13 +60,13 @@ builder.Services.AddAuthentication(options =>
 builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("AdminOnly", policy =>
-        policy.RequireRole("Admin"));
+        policy.RequireRole("admin"));
 
-    options.AddPolicy("Over18", policy =>
-        policy.RequireAssertion(context =>
-            context.User.HasClaim(c =>
-                c.Type == ClaimTypes.DateOfBirth &&
-                DateTime.Parse(c.Value).AddYears(18) <= DateTime.Today)));
+    //options.AddPolicy("Over18", policy =>
+    //    policy.RequireAssertion(context =>
+    //        context.User.HasClaim(c =>
+    //            c.Type == ClaimTypes.DateOfBirth &&
+    //            DateTime.Parse(c.Value).AddYears(18) <= DateTime.Today)));
 });
 #endregion
 //Ìí¼Ó¿çÓò

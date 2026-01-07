@@ -10,7 +10,7 @@ namespace EF
         public BlogDbContext CreateDbContext(string[] args)
         {
             // 直接在工厂中配置连接字符串
-            var connectionString = "Server=localhost;Port=3306;Database=ZBlogDb;User=root;Password=123456;";
+            var connectionString = "Server=localhost;Port=3306;Database=zblog;User=root;Password=123456;";
 
             var optionsBuilder = new DbContextOptionsBuilder<BlogDbContext>();
             optionsBuilder.UseMySql(

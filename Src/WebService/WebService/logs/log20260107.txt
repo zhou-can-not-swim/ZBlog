@@ -1,0 +1,93 @@
+2026-01-07 09:02:37 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using '"C:\Users\qiyu.zhou\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-07 09:02:38 [INF] [Microsoft.Hosting.Lifetime] Now listening on: "http://localhost:5000"
+2026-01-07 09:02:38 [INF] [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+2026-01-07 09:02:38 [INF] [Microsoft.Hosting.Lifetime] Hosting environment: "Development"
+2026-01-07 09:02:38 [INF] [Microsoft.Hosting.Lifetime] Content root path: "C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService"
+2026-01-07 09:02:50 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution failed.
+2026-01-07 09:02:50 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] Request origin "http://localhost:5000" does not have permission to access the resource.
+2026-01-07 09:02:50 [INF] [WebService.Controllers.AccountController] 尝试登录用户名：
+2026-01-07 09:22:36 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using '"C:\Users\qiyu.zhou\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-07 09:22:36 [INF] [Microsoft.Hosting.Lifetime] Now listening on: "http://localhost:5000"
+2026-01-07 09:22:36 [INF] [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+2026-01-07 09:22:36 [INF] [Microsoft.Hosting.Lifetime] Hosting environment: "Development"
+2026-01-07 09:22:36 [INF] [Microsoft.Hosting.Lifetime] Content root path: "C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService"
+2026-01-07 09:23:00 [INF] [Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (admin)"
+2026-01-07 09:23:00 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: "Bearer" was challenged.
+2026-01-07 09:23:19 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution failed.
+2026-01-07 09:23:19 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] Request origin "http://localhost:5000" does not have permission to access the resource.
+2026-01-07 09:23:19 [INF] [WebService.Controllers.AccountController] 尝试登录用户名：
+2026-01-07 09:23:20 [WRN] [WebService.Controllers.AccountController] 登录失败，密码错误：
+2026-01-07 09:23:31 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution failed.
+2026-01-07 09:23:31 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] Request origin "http://localhost:5000" does not have permission to access the resource.
+2026-01-07 09:23:31 [INF] [WebService.Controllers.AccountController] 尝试登录用户名：
+2026-01-07 09:24:40 [INF] [Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (admin)"
+2026-01-07 09:24:40 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: "Bearer" was challenged.
+2026-01-07 09:24:48 [INF] [Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (admin)"
+2026-01-07 09:24:48 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: "Bearer" was challenged.
+2026-01-07 09:24:53 [INF] [Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (admin)"
+2026-01-07 09:24:53 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: "Bearer" was challenged.
+2026-01-07 09:24:54 [INF] [Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (admin)"
+2026-01-07 09:24:54 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: "Bearer" was challenged.
+2026-01-07 09:24:54 [INF] [Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (admin)"
+2026-01-07 09:24:54 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: "Bearer" was challenged.
+2026-01-07 09:24:54 [INF] [Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (admin)"
+2026-01-07 09:24:54 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: "Bearer" was challenged.
+2026-01-07 09:24:54 [INF] [Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (admin)"
+2026-01-07 09:24:54 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: "Bearer" was challenged.
+2026-01-07 09:24:55 [INF] [Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (admin)"
+2026-01-07 09:24:55 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: "Bearer" was challenged.
+2026-01-07 09:24:55 [INF] [Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (admin)"
+2026-01-07 09:24:55 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: "Bearer" was challenged.
+2026-01-07 09:25:05 [INF] [Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (admin)"
+2026-01-07 09:25:05 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: "Bearer" was challenged.
+2026-01-07 09:53:37 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-07 09:59:03 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution failed.
+2026-01-07 09:59:03 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] Request origin "http://localhost:5000" does not have permission to access the resource.
+2026-01-07 09:59:03 [INF] [WebService.Controllers.AccountController] 尝试登录用户名：
+2026-01-07 10:00:05 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-07 10:00:05 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-07 10:00:05 [INF] [WebService.Controllers.AccountController] 尝试登录用户名：
+2026-01-07 10:00:43 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-07 10:00:43 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-07 10:00:43 [INF] [WebService.Controllers.AccountController] 尝试登录用户名：
+2026-01-07 10:23:51 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-07 11:06:46 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-07 11:09:18 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-07 11:09:25 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-07 11:09:25 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-07 11:10:52 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-07 11:10:52 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-07 11:10:55 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-07 11:10:55 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-07 11:10:55 [INF] [Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (admin)"
+2026-01-07 11:10:55 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: "Bearer" was challenged.
+2026-01-07 11:11:25 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-07 11:11:25 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-07 11:11:25 [INF] [WebService.Controllers.AccountController] 尝试登录用户名：
+2026-01-07 11:11:39 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-07 11:11:39 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-07 11:11:39 [INF] [Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (admin)"
+2026-01-07 11:11:39 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: "Bearer" was challenged.
+2026-01-07 11:14:09 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using '"C:\Users\qiyu.zhou\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-07 11:14:09 [INF] [Microsoft.Hosting.Lifetime] Now listening on: "http://localhost:5000"
+2026-01-07 11:14:09 [INF] [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+2026-01-07 11:14:09 [INF] [Microsoft.Hosting.Lifetime] Hosting environment: "Development"
+2026-01-07 11:14:09 [INF] [Microsoft.Hosting.Lifetime] Content root path: "C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService"
+2026-01-07 11:19:20 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-07 11:19:20 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-07 11:19:20 [INF] [WebService.Controllers.AccountController] 尝试登录用户名：
+2026-01-07 11:19:22 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-07 11:19:22 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
