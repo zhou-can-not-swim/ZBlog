@@ -1,6 +1,7 @@
 ﻿using Common;
 using Entities;
 using Entities.Dto;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Service;
@@ -26,9 +27,9 @@ namespace WebService.Controllers
         //    IQueryable<User> users = _userService.FindAll().Include(u => u.Blogs);  // 添加Include显示输出blogs
         //    //return new ApiResponse<users>();
         //    return users;
-            
-        //}
 
+        //}
+        [Authorize(Roles = "admin")]
         [HttpGet()]
         public async Task<ApiResponse<User>> GetUser([FromQuery]int id)
         {
@@ -59,6 +60,7 @@ namespace WebService.Controllers
             }
         }
 
+        [Authorize(Roles = "admin")]
         [HttpPost()]
         public async Task<ApiResponse<User>> GetUserByUserName([FromBody] string username)
         {
@@ -88,6 +90,7 @@ namespace WebService.Controllers
             }
         }
 
+        [Authorize(Roles = "admin")]
         [HttpPost("create")]
         public async Task<ApiResponse<User>> CreateUser([FromBody] UserNameAndPasswordToUserDto? user)
         {

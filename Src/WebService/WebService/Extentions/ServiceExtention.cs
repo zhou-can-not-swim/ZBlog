@@ -9,7 +9,7 @@ namespace WebService.Extentions
         {
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IBlogService, BlogService>();
-            //services.AddScoped<ITagService, TagService>();
+            services.AddScoped<ITagService, TagService>();
         }
     }
 }

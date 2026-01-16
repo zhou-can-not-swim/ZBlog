@@ -4,11 +4,13 @@ interface UserState {
  username:string,
  motto:string,
  email:string,
+ role:string
 }
 const initialState: UserState = { 
-     username:"张三",
+    username:"张三",
     motto:"hhxx",
     email:"admin@example.com",
+    role:""
 };
 
 const userSlice = createSlice({
@@ -23,6 +25,9 @@ const userSlice = createSlice({
    },
    setEmail: (state,action) => {
      state.email =action.payload;
+   },
+   setRole:(state,action) => {
+     state.role =action.payload;
    },
  },
 });

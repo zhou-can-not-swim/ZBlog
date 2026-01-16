@@ -72,6 +72,43 @@ namespace WebService.Controllers
             }     
         }
 
+        [HttpGet("profile")]
+        [Authorize(Roles = "admin")]
+        public async Task<IActionResult> GetUserProfile()
+        {
+            try
+            {
+                // 从token中获取用户名
+                var username = User.Identity?.Name;
+                if (string.IsNullOrEmpty(username))
+                {
+                    return Unauthorized();
+                }
+
+                // 使用用户名查询数据库
+                var user = await _userService.GetByUserName(username);
+
+                if (user == null)
+                {
+                    return NotFound("用户不存在");
+                }
+
+                // 返回用户数据（注意：不要返回密码等敏感信息）
+                return Ok(new
+                {
+                    username = user.Username,
+                    email = user.Email,
+                    createAt = user.CreatedAt
+ 
+                });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "获取用户资料失败");
+                return StatusCode(500, "服务器内部错误");
+            }
+        }
+
         ////进阶版本
         //[HttpPost("login")]
         //public async Task<IActionResult> Login([FromBody] LoginDto model)

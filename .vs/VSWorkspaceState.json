@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Src",
+    "\\Src\\WebService",
+    "\\Src\\WebService\\Service.Tests"
   ],
-  "SelectedNode": "\\WebService.sln",
+  "SelectedNode": "\\Src\\WebService\\WebService.sln",
   "PreviewInSolutionExplorer": false
 }

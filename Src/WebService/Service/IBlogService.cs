@@ -15,7 +15,13 @@ namespace Service
         //添加文章
         void AddBlogByContent(string content);
         void AddByTitleDespContent(Blog blog);
+        void AddByTitleDespContentTag(Blog blog);
 
+        void UpdateByTitleDespContentTag(Blog blog);
+
+
+        //删除文章
+        Task<Boolean> DeleteBlogByIdAsync(int id);
 
 
     }

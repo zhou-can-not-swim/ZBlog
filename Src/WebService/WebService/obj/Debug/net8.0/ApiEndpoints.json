@@ -26,6 +26,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebService.Controllers.AccountController",
+    "Method": "GetUserProfile",
+    "RelativePath": "api/Account/profile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebService.Controllers.BlogController",
     "Method": "GetBlogById",
     "RelativePath": "api/blog",
@@ -61,7 +71,7 @@
     "Parameters": [
       {
         "Name": "blog",
-        "Type": "Entities.Dto.TitleDespContentToBlog",
+        "Type": "Entities.Dto.TitleDespContentTagToBlog",
         "IsRequired": true
       }
     ],
@@ -88,6 +98,78 @@
     "ReturnTypes": [
       {
         "Type": "Common.ApiResponse\u00601[[System.Collections.Generic.List\u00601[[Entities.Blog, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebService.Controllers.BlogController",
+    "Method": "DeleteBlog",
+    "RelativePath": "api/blog/delete",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Common.ApiResponse\u00601[[Entities.Blog, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebService.Controllers.BlogController",
+    "Method": "UpdateBlog",
+    "RelativePath": "api/blog/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "blog",
+        "Type": "Entities.Dto.IdTitleDespContentTagToBlog",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Common.ApiResponse\u00601[[Entities.Blog, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebService.Controllers.TagController",
+    "Method": "GetAllBlogs",
+    "RelativePath": "api/Tag/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Common.ApiResponse\u00601[[System.Collections.Generic.List\u00601[[Entities.Tag, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

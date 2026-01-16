@@ -10,6 +10,8 @@ import { setEmail, setMotto, setUserName } from '../../stores/userSlice';
 // import { login } from '../../services/account';
 import { login } from '@/services/account';
 
+
+// 这其实是一个Avater界面
 const LoginPage: React.FC = () => {
     //导入store
     const username = useAppSelector((state) => state.user.username);
@@ -43,12 +45,12 @@ const LoginPage: React.FC = () => {
                 
         
 
-
+        
 
         localStorage.setItem("token", result.token)
         dispatch(setUserName(result.username))
         // dispatch(setMotto("xxxx"))
-        dispatch(setEmail(result.email))
+        dispatch(setEmail(result.username))
 
     };
 

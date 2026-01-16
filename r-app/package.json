@@ -12,6 +12,7 @@
     "@wangeditor/editor": "^5.1.23",
     "@wangeditor/editor-for-react": "^1.0.6",
     "antd": "^6.1.1",
+    "axios": "^1.13.2",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
     "react-redux": "^9.2.0",
@@ -21,10 +22,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test"
   },
   "eslintConfig": {
     "extends": [
@@ -50,6 +50,8 @@
     "@types/react-dom": "^19.2.3",
     "@types/slate": "^0.47.16",
     "@types/slate-react": "^0.50.1",
+    "customize-cra": "^1.0.0",
+    "react-app-rewired": "^2.2.1",
     "typescript": "^5.9.3"
   }
 }

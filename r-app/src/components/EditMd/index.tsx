@@ -1,9 +1,10 @@
 // src/App.tsx
 import React, { useEffect, useState } from 'react';
 import SimpleMDEditor from './SimpleMDEditor';
-import { Button, Checkbox, Form, Input, Modal } from 'antd';
+import { Button, Checkbox, Form, Input, Modal, Select } from 'antd';
 import { FormProps } from 'antd/es/form/Form';
-import { submitBlogContent } from '../../services/blogList';
+import { submitBlogContent } from '../../services/blogs';
+import { getTagsList } from '@/services/tags';
 
 const EditMd: React.FC = () => {
     const [content, setContent] = useState<string>('');
@@ -63,29 +64,51 @@ const EditMd: React.FC = () => {
 
 
     //   form表单
-
     type FieldType = {
         title?: string;
         description?: string;
+        tag: string;
     };
 
     const onFinish: FormProps<FieldType>['onFinish'] = async (values) => {//values {},代表title和description
-        console.log('Success222:', values);
         //调用后端接口
-        var result=await submitBlogContent({title:values.title,description:values.description,content:content})
+        var result = await submitBlogContent({ title: values.title, description: values.description, content: content ,tagIds:tagId})
         console.log(result);
-        
-
     };
 
     const onFinishFailed: FormProps<FieldType>['onFinishFailed'] = (errorInfo) => {
         console.log('Failed:', errorInfo);
     };
 
-    useEffect(()=>{
-        console.log(content);
-        
-    },[content])
+    // select tag 选择器
+    const [tagId,setTagId]=useState<number[]>()
+    const handleChange = (value: number) => {
+        setTagId([value])
+        console.log(`selected ${value}`);
+    };
+
+    //tag设置
+    const [list, setList] = useState<TagApi.TagItem[]>([])
+    const [options,setOptions]=useState<TagApi.TagOptions[]>([])
+    useEffect(() => {
+        const getAllList = async () => {
+            const v = await getTagsList();
+            setList(v)
+
+            return v;
+        }
+        getAllList()
+
+    }, [content])
+
+    useEffect(() => {
+        const transformedOptions = list.map(item => ({
+            value: item.id,
+            label: item.name,
+        }));
+        setOptions(transformedOptions)
+
+    }, [list])
 
     return (
         <div style={{ padding: '20px', maxWidth: '1200px', margin: '0 auto' }}>
@@ -187,6 +210,19 @@ const EditMd: React.FC = () => {
                         rules={[{ required: true, message: 'Please input your description!' }]}
                     >
                         <Input />
+                    </Form.Item>
+
+                    <Form.Item<FieldType>
+                        label="标签"
+                        name="tag"
+                        rules={[{ required: true, message: 'Please input your description!' }]}
+                    >
+                        <Select
+                            placeholder="Select a person"
+                            style={{ width: 180 }}
+                            onChange={handleChange}
+                            options={options}
+                        />
                     </Form.Item>
 
 

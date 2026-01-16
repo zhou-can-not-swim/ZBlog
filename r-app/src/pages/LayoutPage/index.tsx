@@ -2,47 +2,31 @@ import React, { useState, useMemo, useEffect, useRef } from 'react';
 import { Avatar, Button, Card, Col, Descriptions, List, Row, Space } from 'antd';
 import "./index.css"
 
-import { UserOutlined } from '@ant-design/icons';
-
 import { Flex, Radio, Pagination } from 'antd';
-import { getAllBlogs } from '../../services/blogList';
+import { getAllBlogs } from '../../services/blogs';
+import { getProfile, login } from '@/services/account';
+import { deleteBlog } from '@/services/blogs.axios';
 
 const LayoutPage: React.FC = () => {
   const PAGE_SIZE = 5; // 每页显示的数量
-  const [len, setLen] = useState(100);
   const [currentPage, setCurrentPage] = useState(1); // 当前页码
   const [data, setData] = useState<BlogApi.BlogItem[]>([])
 
   const flag = useRef(true); // 防重复请求的 ref
 
   useEffect(() => {
-    // 修复方式1：在 useEffect 内部使用 async/await（推荐）
     const loadData = async () => {
       if (flag.current) {
         flag.current = false;
         const response = await getAllBlogs();
         setData(response.data)
-
-        console.log("loadData--", data);
-
         return response;
       }
     };
-
     loadData();
   }, []);
 
-  //可以观察到data数据已经更新了，setData但不是实时的
-  //   useEffect(() => {
-  //     console.log("data 已更新:", data);
-  // }, [data]);
-
-
-  // 生成所有数据
-  //allData其实已经调用过一次了，但是data是[]
   const allData = useMemo(() => {
-    console.log("allData--", data);
-
     return data.map(item => ({
       id: item.id,
       title: item.title,
@@ -65,18 +49,56 @@ const LayoutPage: React.FC = () => {
     // window.scrollTo(0, 0);
   };
 
+  //获取管理员权限
 
+  const [role, setRole] = useState('')
+  
+  useEffect(() => {
+    const token = localStorage.getItem("token")
+    if (token != null) {
+      const getAdminRole = async () => {
+        var result = await getProfile()
+        // console.log(result.username);
+
+        setRole(result.username || '')
+        return result;
+
+      }
+
+      getAdminRole()
+    }
+
+
+  }, [])
+  // 删除一个blog
+  const handleDelete=async (id: number)=>{
+    let result=await deleteBlog({id});
+    console.log(result);
+    
+  }
 
   return (
     <>
       <div className='pageBox'>
         <div className='Card-Avatar-left'>
-          <Avatar></Avatar>
+
         </div>
 
         <div className='Content-right'>
           {currentData.map((item) => (
-            <Card key={item.id} size="small" title={item.title} extra={<a href={"/content/" + item.id}>查看详情 </a>} style={{ width: '60%', margin: "5px 0" }}>
+            <Card key={item.id} size="small" title={item.title} extra={
+              <div>
+                {role === "admin" ? 
+                <>
+                  <a href={"/admin/update/" + item.id}>编辑</a>
+                  <span>&nbsp;&nbsp;&nbsp;</span>
+                  <a href={"#"} onClick={()=>handleDelete(item.id)}>删除</a>    
+                </>
+                  : ""}
+                <span>&nbsp;&nbsp;&nbsp;</span>
+                <a href={"/content/" + item.id}>查看详情 </a>
+              </div>
+            } style={{ width: '60%', margin: "5px" }}>
               <p>{item.description}</p>
             </Card>
           ))}
@@ -88,7 +110,7 @@ const LayoutPage: React.FC = () => {
             pageSize={PAGE_SIZE}
             onChange={handlePageChange}
             showSizeChanger={false} // 如果需要每页数量选择器可以设为true
-            style={{ marginTop: 16,marginBottom:10 }}
+            style={{ marginTop: 16, marginBottom: 10 }}
           />
 
         </div>
@@ -101,4 +123,4 @@ const LayoutPage: React.FC = () => {
   );
 };
 
-export default LayoutPage;
+export default LayoutPage; 

@@ -36,6 +36,18 @@
         }
       }
     },
+    "/api/Account/profile": {
+      "get": {
+        "tags": [
+          "Account"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Account/logout": {
       "post": {
         "tags": [
@@ -125,17 +137,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/TitleDespContentToBlog"
+                "$ref": "#/components/schemas/TitleDespContentTagToBlog"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/TitleDespContentToBlog"
+                "$ref": "#/components/schemas/TitleDespContentTagToBlog"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/TitleDespContentToBlog"
+                "$ref": "#/components/schemas/TitleDespContentTagToBlog"
               }
             }
           }
@@ -157,6 +169,122 @@
               "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/BlogApiResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/blog/update": {
+      "post": {
+        "tags": [
+          "Blog"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/IdTitleDespContentTagToBlog"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/IdTitleDespContentTagToBlog"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/IdTitleDespContentTagToBlog"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/BlogApiResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BlogApiResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BlogApiResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/blog/delete": {
+      "get": {
+        "tags": [
+          "Blog"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/BlogApiResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BlogApiResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BlogApiResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Tag/all": {
+      "get": {
+        "tags": [
+          "Tag"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/TagListApiResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TagListApiResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TagListApiResponse"
                 }
               }
             }
@@ -351,9 +479,24 @@
             "type": "integer",
             "format": "int32"
           },
-          "tagId": {
-            "type": "integer",
-            "format": "int32"
+          "tagIdsJson": {
+            "type": "string",
+            "nullable": true
+          },
+          "tagIds": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "nullable": true
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Tag"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -371,6 +514,9 @@
           },
           "data": {
             "$ref": "#/components/schemas/Blog"
+          },
+          "success": {
+            "type": "boolean"
           }
         },
         "additionalProperties": false
@@ -392,6 +538,39 @@
               "$ref": "#/components/schemas/Blog"
             },
             "nullable": true
+          },
+          "success": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "IdTitleDespContentTagToBlog": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "content": {
+            "type": "string",
+            "nullable": true
+          },
+          "tagIds": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -410,7 +589,49 @@
         },
         "additionalProperties": false
       },
-      "TitleDespContentToBlog": {
+      "Tag": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TagListApiResponse": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Tag"
+            },
+            "nullable": true
+          },
+          "success": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "TitleDespContentTagToBlog": {
         "type": "object",
         "properties": {
           "title": {
@@ -423,6 +644,14 @@
           },
           "content": {
             "type": "string",
+            "nullable": true
+          },
+          "tagIds": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            },
             "nullable": true
           }
         },
@@ -478,6 +707,9 @@
           },
           "data": {
             "$ref": "#/components/schemas/User"
+          },
+          "success": {
+            "type": "boolean"
           }
         },
         "additionalProperties": false

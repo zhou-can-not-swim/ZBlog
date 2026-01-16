@@ -838,7 +838,6 @@ C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\Microsof
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\Mapster.dll
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\Mapster.Core.dll
-C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
@@ -852,3 +851,4 @@ C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\Serilog.
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\Serilog.Sinks.File.dll
 C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

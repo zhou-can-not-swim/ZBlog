@@ -12,12 +12,15 @@ namespace Common
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)] // 数据为null时不序列化该字段
         public T? Data { get; set; }
 
+        public Boolean Success { get; set; }
+
         public static ApiResponse<T> SuccessResult(T? data = default, string message = "操作成功")
         {
             return new ApiResponse<T>
             {
                 Code = 200,
                 Message = message,
+                Success=true,
                 Data = data,
             };
         }
@@ -28,6 +31,7 @@ namespace Common
             {
                 Code = code,
                 Message = message,
+                Success = false,
                 Data = data,
             };
         }

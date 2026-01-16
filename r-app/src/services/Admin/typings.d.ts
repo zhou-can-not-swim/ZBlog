@@ -6,4 +6,10 @@ export namespace API {
     password?: string;
     remember?: string;
   };
+
+  export type AccountProfile={
+    username?: string;
+    email?:string;
+    createAt?:string
+  }
 }

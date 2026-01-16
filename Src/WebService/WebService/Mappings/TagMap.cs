@@ -21,6 +21,8 @@ namespace EF.Mappings
                 .IsRequired()
                 .HasMaxLength(50);
 
+            entity.HasIndex(e => e.Name)
+                .IsUnique(); // 确保标签名称唯一
             // 配置种子数据
             var tags = new[]
             {

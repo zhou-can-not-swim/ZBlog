@@ -1,7 +1,7 @@
 // ContentPage.tsx
 import React, { useEffect, useMemo, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { findOne } from '../../services/blogList';
+import { findOne } from '../../services/blogs';
 import MarkD from "../../components/MdPreView/index"
 
 const ContentPage: React.FC = () => { // 移除 async 关键字

@@ -1,0 +1,186 @@
+2026-01-13 11:36:32 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:36:32 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:36:32 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:36:32 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:36:32 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '2026/1/12 10:29:47', Current time (UTC): '2026/1/13 3:36:32'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-01-13 11:36:32 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '2026/1/12 10:29:47', Current time (UTC): '2026/1/13 3:36:32'."
+2026-01-13 11:36:32 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:36:32 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '2026/1/12 10:29:47', Current time (UTC): '2026/1/13 3:36:32'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-01-13 11:36:32 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '2026/1/12 10:29:47', Current time (UTC): '2026/1/13 3:36:32'."
+2026-01-13 11:36:59 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:36:59 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:36:59 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:36:59 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:36:59 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '2026/1/12 10:29:47', Current time (UTC): '2026/1/13 3:36:59'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-01-13 11:36:59 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '2026/1/12 10:29:47', Current time (UTC): '2026/1/13 3:36:59'."
+2026-01-13 11:36:59 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:36:59 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '2026/1/12 10:29:47', Current time (UTC): '2026/1/13 3:36:59'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-01-13 11:36:59 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '2026/1/12 10:29:47', Current time (UTC): '2026/1/13 3:36:59'."
+2026-01-13 11:38:11 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:38:11 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:38:11 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '2026/1/12 10:29:47', Current time (UTC): '2026/1/13 3:38:11'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-01-13 11:38:11 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '2026/1/12 10:29:47', Current time (UTC): '2026/1/13 3:38:11'."
+2026-01-13 11:38:21 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:38:21 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:38:21 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '2026/1/12 10:29:47', Current time (UTC): '2026/1/13 3:38:21'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-01-13 11:38:21 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '2026/1/12 10:29:47', Current time (UTC): '2026/1/13 3:38:21'."
+2026-01-13 11:40:02 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:40:02 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:40:02 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '2026/1/12 10:29:47', Current time (UTC): '2026/1/13 3:40:02'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-01-13 11:40:02 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '2026/1/12 10:29:47', Current time (UTC): '2026/1/13 3:40:02'."
+2026-01-13 11:40:33 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:40:33 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:40:33 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '2026/1/12 10:29:47', Current time (UTC): '2026/1/13 3:40:33'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-01-13 11:40:33 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '2026/1/12 10:29:47', Current time (UTC): '2026/1/13 3:40:33'."
+2026-01-13 11:41:09 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:41:09 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:41:09 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '2026/1/12 10:29:47', Current time (UTC): '2026/1/13 3:41:09'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-01-13 11:41:09 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '2026/1/12 10:29:47', Current time (UTC): '2026/1/13 3:41:09'."
+2026-01-13 11:41:39 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:41:39 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:41:39 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '2026/1/12 10:29:47', Current time (UTC): '2026/1/13 3:41:39'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-01-13 11:41:39 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '2026/1/12 10:29:47', Current time (UTC): '2026/1/13 3:41:39'."
+2026-01-13 11:42:53 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:42:53 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:43:10 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:43:10 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:43:17 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:43:17 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:46:13 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using '"C:\Users\qiyu.zhou\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-13 11:49:12 [INF] [Microsoft.Hosting.Lifetime] Now listening on: "http://localhost:5000"
+2026-01-13 11:49:12 [INF] [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+2026-01-13 11:49:12 [INF] [Microsoft.Hosting.Lifetime] Hosting environment: "Development"
+2026-01-13 11:49:12 [INF] [Microsoft.Hosting.Lifetime] Content root path: "C:\Users\qiyu.zhou\Desktop\B\Src\WebService\WebService"
+2026-01-13 11:49:27 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:49:29 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:49:40 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:49:40 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:49:47 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:49:47 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:53:56 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:53:56 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:55:30 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 11:55:30 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 13:05:35 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 13:05:35 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 13:05:35 [INF] [WebService.Controllers.AccountController] 尝试登录用户名：
+2026-01-13 13:05:50 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 13:05:50 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 13:05:50 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 13:05:50 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 13:05:51 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 13:07:30 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 13:07:30 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 13:07:30 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 13:07:30 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 13:07:30 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 13:14:54 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 13:14:54 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 13:14:54 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 13:14:54 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 13:14:54 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 14:20:51 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 14:20:54 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 14:21:24 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 14:21:30 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 14:21:52 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 14:21:52 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 14:21:52 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 14:21:52 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 14:21:52 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 14:21:52 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '2026/1/13 6:05:36', Current time (UTC): '2026/1/13 6:21:52'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-01-13 14:21:52 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '2026/1/13 6:05:36', Current time (UTC): '2026/1/13 6:21:52'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-01-13 14:21:52 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '2026/1/13 6:05:36', Current time (UTC): '2026/1/13 6:21:52'."
+2026-01-13 14:21:52 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '2026/1/13 6:05:36', Current time (UTC): '2026/1/13 6:21:52'."
+2026-01-13 14:21:52 [INF] [Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (admin)"
+2026-01-13 14:21:52 [INF] [Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (admin)"
+2026-01-13 14:21:52 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: "Bearer" was challenged.
+2026-01-13 14:21:52 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: "Bearer" was challenged.
+2026-01-13 14:22:12 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 14:22:12 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 14:22:12 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '2026/1/13 6:05:36', Current time (UTC): '2026/1/13 6:22:12'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-01-13 14:22:12 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '2026/1/13 6:05:36', Current time (UTC): '2026/1/13 6:22:12'."
+2026-01-13 14:22:12 [INF] [WebService.Controllers.AccountController] 尝试登录用户名：
+2026-01-13 14:22:19 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 14:22:19 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 14:22:19 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 14:22:19 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 14:22:19 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 14:22:23 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 14:22:23 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 14:22:23 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 14:22:23 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 14:23:08 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 14:23:08 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 14:23:08 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 14:23:13 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 14:23:13 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 14:23:13 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
+2026-01-13 14:23:13 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] CORS policy execution successful.
